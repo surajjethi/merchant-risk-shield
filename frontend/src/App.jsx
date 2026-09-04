@@ -21,7 +21,7 @@ const DATASET_SIZES = { orders: 6000, disputes: 1400 };
 // FastAPI scoring microservice (ml-pipeline/scoring_service.py) — run it with
 // `uvicorn scoring_service:app --reload --port 8000` to make the "Score live"
 // panels below hit the real trained XGBoost / Random Forest models.
-const SCORING_URL = "http://localhost:8000";
+const SCORING_URL = "https://merchant-risk-shield.onrender.com";
 
 const MODEL1 = {
   name: "Return Risk Scorer",
@@ -1425,7 +1425,7 @@ export default function MerchantRiskShield() {
 
   async function generateLetter(id) {
     try {
-      const res = await fetch(`http://localhost:4000/api/disputes/${id}/generate-letter`, {
+      const res = await fetch(`https://merchant-risk-shield-api.onrender.com/api/disputes/${id}/generate-letter`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });
