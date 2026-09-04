@@ -1,0 +1,1401 @@
+dispute_id,order_id,reason,order_value,has_delivery_proof,has_signed_pod,ip_match,tracking_valid,comm_logs,days_to_file,prior_customer_disputes,won
+DSP-2000,ORD-11784,Transaction not recognised,1748.83,1,1,1,1,5,0,0,1
+DSP-2001,ORD-12188,Item not received,5496.66,0,0,1,0,0,10,0,0
+DSP-2002,ORD-15480,Transaction not recognised,8246.6,0,0,1,0,1,19,0,0
+DSP-2003,ORD-13415,Item not received,8270.42,1,1,0,1,1,0,0,0
+DSP-2004,ORD-13535,Item not received,2073.14,1,1,1,1,1,17,1,1
+DSP-2005,ORD-13683,Transaction not recognised,3089.52,1,0,1,1,1,3,1,1
+DSP-2006,ORD-10019,Item not received,4481.89,0,0,1,0,6,14,1,0
+DSP-2007,ORD-14574,Item not received,5371.42,1,1,1,1,1,0,0,1
+DSP-2008,ORD-12017,Defective item,2591.98,1,1,1,1,3,14,0,1
+DSP-2009,ORD-15307,Duplicate charge,5204.45,0,0,0,0,1,3,0,0
+DSP-2010,ORD-13993,Item not received,7360.92,0,0,0,0,0,28,0,0
+DSP-2011,ORD-14855,Defective item,2921.04,1,1,1,1,1,39,0,1
+DSP-2012,ORD-14160,Defective item,9457.21,0,0,1,0,5,6,1,0
+DSP-2013,ORD-12784,Item not received,10099.7,1,1,1,1,1,52,0,1
+DSP-2014,ORD-15817,Item not received,7138.51,1,1,0,1,1,41,0,1
+DSP-2015,ORD-14844,Item not as described,13609.13,1,1,0,1,4,0,1,1
+DSP-2016,ORD-13366,Defective item,16711.65,1,1,1,1,3,4,0,1
+DSP-2017,ORD-12380,Duplicate charge,18509.86,1,1,0,0,1,8,0,1
+DSP-2018,ORD-11181,Duplicate charge,6346.35,0,0,0,0,2,5,0,0
+DSP-2019,ORD-11557,Defective item,3489.03,1,1,0,1,0,7,0,1
+DSP-2020,ORD-12191,Duplicate charge,4664.42,0,0,1,0,1,1,1,0
+DSP-2021,ORD-12629,Defective item,1436.68,1,1,0,1,2,13,0,1
+DSP-2022,ORD-11835,Defective item,4679.85,1,1,1,1,1,16,0,1
+DSP-2023,ORD-13418,Item not received,5971.35,0,0,1,0,2,11,0,1
+DSP-2024,ORD-14196,Transaction not recognised,1216.52,1,0,1,1,0,16,0,1
+DSP-2025,ORD-11926,Item not received,10417.71,1,1,1,1,1,0,2,1
+DSP-2026,ORD-10323,Defective item,5345.9,1,1,1,1,3,9,1,1
+DSP-2027,ORD-11066,Defective item,1699.04,1,0,0,1,2,5,0,1
+DSP-2028,ORD-12221,Item not as described,2462.1,0,0,1,0,2,12,0,0
+DSP-2029,ORD-11526,Defective item,2315.06,0,0,1,0,1,21,0,1
+DSP-2030,ORD-12974,Duplicate charge,6761.89,1,1,0,1,3,17,0,1
+DSP-2031,ORD-14128,Duplicate charge,3854.9,1,1,1,1,3,18,1,1
+DSP-2032,ORD-15189,Item not as described,5380.5,1,1,0,1,3,8,1,1
+DSP-2033,ORD-14345,Transaction not recognised,6547.69,0,0,0,0,1,26,0,0
+DSP-2034,ORD-13138,Transaction not recognised,3369.52,1,0,1,1,1,0,1,1
+DSP-2035,ORD-11163,Transaction not recognised,1601.71,1,1,1,0,1,0,0,1
+DSP-2036,ORD-11425,Duplicate charge,4555.6,1,1,1,1,4,9,0,1
+DSP-2037,ORD-15764,Duplicate charge,4169.68,1,0,1,1,1,1,0,1
+DSP-2038,ORD-14595,Transaction not recognised,2463.79,0,0,0,0,2,15,0,0
+DSP-2039,ORD-14210,Item not received,2542.13,1,0,0,1,0,3,0,1
+DSP-2040,ORD-14620,Item not received,2712.75,1,1,1,0,2,1,3,1
+DSP-2041,ORD-12345,Transaction not recognised,1826.1,1,0,1,1,3,9,0,1
+DSP-2042,ORD-15263,Transaction not recognised,7107.71,1,1,0,1,2,9,1,0
+DSP-2043,ORD-15736,Transaction not recognised,4916.56,1,1,1,1,1,12,0,1
+DSP-2044,ORD-13497,Item not received,4428.29,0,0,1,0,2,11,0,0
+DSP-2045,ORD-13457,Duplicate charge,9423.11,0,0,0,0,4,2,1,0
+DSP-2046,ORD-15199,Duplicate charge,5749.15,0,0,1,0,0,17,0,0
+DSP-2047,ORD-15422,Item not as described,1444.42,0,0,0,0,0,7,0,1
+DSP-2048,ORD-14569,Item not received,2485.36,1,1,1,1,1,23,0,1
+DSP-2049,ORD-15086,Item not as described,4275.41,1,1,0,1,4,3,0,1
+DSP-2050,ORD-12658,Transaction not recognised,3285.16,1,1,0,0,2,2,1,1
+DSP-2051,ORD-14034,Item not as described,4338.89,1,0,1,1,1,1,1,1
+DSP-2052,ORD-10392,Duplicate charge,5486.71,1,1,1,1,1,18,0,1
+DSP-2053,ORD-12820,Item not as described,8470.7,0,0,0,0,0,1,1,0
+DSP-2054,ORD-11861,Item not as described,3556.1,1,0,1,1,3,25,0,0
+DSP-2055,ORD-14440,Duplicate charge,4024.21,1,1,0,1,0,9,0,1
+DSP-2056,ORD-15465,Defective item,5612.82,0,0,1,0,0,4,0,0
+DSP-2057,ORD-12020,Transaction not recognised,6428.93,1,0,0,1,1,2,1,0
+DSP-2058,ORD-13140,Transaction not recognised,8460.82,1,1,1,1,4,1,0,1
+DSP-2059,ORD-11977,Defective item,5657.82,1,1,1,1,1,6,2,1
+DSP-2060,ORD-10665,Item not as described,2498.68,1,1,0,0,0,7,1,1
+DSP-2061,ORD-13646,Duplicate charge,2236.8,1,1,1,0,0,25,0,1
+DSP-2062,ORD-13559,Duplicate charge,2784.36,1,1,1,1,0,2,0,1
+DSP-2063,ORD-15065,Item not as described,10546.63,1,1,1,1,2,4,0,1
+DSP-2064,ORD-11106,Transaction not recognised,9573.64,0,0,1,0,0,3,1,0
+DSP-2065,ORD-12721,Item not received,6854.04,1,1,0,1,2,8,0,0
+DSP-2066,ORD-13285,Item not received,2240.0,1,1,1,1,1,1,1,1
+DSP-2067,ORD-14609,Item not as described,8549.19,1,1,1,1,1,4,0,1
+DSP-2068,ORD-15799,Defective item,2860.97,0,0,0,0,2,3,0,0
+DSP-2069,ORD-14506,Duplicate charge,1649.52,1,1,0,1,1,33,1,1
+DSP-2070,ORD-15470,Item not received,6514.55,1,1,0,1,3,9,0,1
+DSP-2071,ORD-12786,Duplicate charge,4284.49,1,1,1,1,1,4,0,1
+DSP-2072,ORD-13647,Item not received,4217.07,1,1,0,1,2,9,1,1
+DSP-2073,ORD-10012,Item not received,10676.75,1,1,0,1,0,6,0,1
+DSP-2074,ORD-15398,Transaction not recognised,19324.29,1,1,0,0,0,0,1,1
+DSP-2075,ORD-14826,Item not as described,6508.88,1,1,0,1,0,2,0,1
+DSP-2076,ORD-10367,Duplicate charge,2983.99,1,1,1,1,2,6,1,1
+DSP-2077,ORD-15345,Transaction not recognised,3009.26,1,1,1,1,1,0,0,1
+DSP-2078,ORD-11925,Item not as described,3325.92,0,0,1,0,3,5,0,0
+DSP-2079,ORD-13639,Transaction not recognised,2062.55,1,1,1,1,3,13,0,1
+DSP-2080,ORD-12742,Item not as described,6636.58,1,1,0,1,1,4,0,1
+DSP-2081,ORD-10570,Defective item,13243.92,0,0,1,0,2,30,0,1
+DSP-2082,ORD-13910,Item not received,7167.93,1,1,1,1,1,2,0,1
+DSP-2083,ORD-13382,Item not received,7998.5,1,1,1,1,1,27,1,0
+DSP-2084,ORD-13943,Item not received,5320.89,0,0,0,0,3,0,0,0
+DSP-2085,ORD-13377,Transaction not recognised,5552.39,0,0,1,0,1,2,1,0
+DSP-2086,ORD-11241,Defective item,4935.85,0,0,0,0,0,26,0,0
+DSP-2087,ORD-13466,Item not received,6353.81,1,1,1,1,0,15,0,1
+DSP-2088,ORD-11615,Defective item,4542.64,1,1,0,1,0,33,0,1
+DSP-2089,ORD-15858,Duplicate charge,4121.61,0,0,0,0,0,2,0,0
+DSP-2090,ORD-13110,Item not as described,3107.53,0,0,1,0,3,9,0,0
+DSP-2091,ORD-10453,Duplicate charge,4602.15,1,1,1,1,2,1,0,1
+DSP-2092,ORD-13162,Duplicate charge,5070.65,1,1,0,1,0,1,1,1
+DSP-2093,ORD-10589,Transaction not recognised,7300.77,0,0,1,0,0,3,1,0
+DSP-2094,ORD-15376,Item not as described,5868.4,1,1,0,1,2,12,0,1
+DSP-2095,ORD-13615,Duplicate charge,2993.55,1,1,0,1,2,10,1,1
+DSP-2096,ORD-12608,Transaction not recognised,4443.48,1,1,1,1,0,8,1,1
+DSP-2097,ORD-10135,Item not received,2471.47,1,0,1,0,0,34,0,1
+DSP-2098,ORD-10440,Item not received,1207.01,1,1,1,0,0,4,0,1
+DSP-2099,ORD-15835,Transaction not recognised,12049.66,1,1,1,1,0,24,2,1
+DSP-2100,ORD-10740,Item not received,3801.41,0,0,0,0,3,36,1,0
+DSP-2101,ORD-11600,Item not as described,8923.0,0,0,1,0,1,1,1,0
+DSP-2102,ORD-14950,Duplicate charge,7997.89,0,0,0,0,0,17,0,0
+DSP-2103,ORD-14879,Duplicate charge,7260.54,1,1,0,1,1,0,0,1
+DSP-2104,ORD-12953,Transaction not recognised,2340.31,1,1,1,1,1,1,1,1
+DSP-2105,ORD-15680,Transaction not recognised,13580.4,1,1,0,1,1,1,0,0
+DSP-2106,ORD-10787,Defective item,5801.03,0,0,1,0,2,4,1,0
+DSP-2107,ORD-15380,Transaction not recognised,7591.35,1,1,0,0,1,4,0,1
+DSP-2108,ORD-13203,Item not as described,5617.87,1,1,0,1,0,17,0,0
+DSP-2109,ORD-13559,Defective item,5368.85,1,1,1,1,3,1,0,1
+DSP-2110,ORD-13948,Defective item,6741.9,0,0,1,0,0,22,0,0
+DSP-2111,ORD-15123,Item not received,6182.9,1,1,0,1,0,14,0,1
+DSP-2112,ORD-15459,Transaction not recognised,7884.75,1,1,0,1,1,15,0,1
+DSP-2113,ORD-11062,Transaction not recognised,7698.91,1,1,1,1,2,14,0,1
+DSP-2114,ORD-10047,Defective item,1838.34,1,1,1,0,1,30,0,1
+DSP-2115,ORD-11452,Item not as described,4944.07,0,0,1,0,1,11,0,0
+DSP-2116,ORD-11177,Defective item,4127.22,0,0,0,0,3,8,0,0
+DSP-2117,ORD-13068,Defective item,3514.5,0,0,1,0,0,4,0,0
+DSP-2118,ORD-13363,Item not as described,1358.27,1,0,0,1,2,1,1,0
+DSP-2119,ORD-12629,Defective item,6116.27,1,0,1,1,1,1,0,1
+DSP-2120,ORD-11006,Item not received,5963.28,1,1,1,1,1,8,0,1
+DSP-2121,ORD-14475,Defective item,6384.93,0,0,0,0,1,13,0,1
+DSP-2122,ORD-12543,Item not received,10745.23,0,0,1,0,0,22,0,0
+DSP-2123,ORD-10910,Transaction not recognised,6161.96,0,0,0,0,2,11,1,0
+DSP-2124,ORD-15574,Item not received,7804.94,1,1,1,0,1,24,0,1
+DSP-2125,ORD-14819,Duplicate charge,2274.62,1,1,0,1,2,0,0,1
+DSP-2126,ORD-13146,Item not as described,3795.94,1,0,0,0,2,11,0,0
+DSP-2127,ORD-13626,Transaction not recognised,4032.37,1,1,0,1,1,28,0,1
+DSP-2128,ORD-13928,Transaction not recognised,11812.43,0,0,1,0,2,1,0,1
+DSP-2129,ORD-15672,Defective item,4157.3,0,0,1,0,2,24,0,0
+DSP-2130,ORD-10608,Duplicate charge,9274.61,0,0,1,0,0,3,1,1
+DSP-2131,ORD-12006,Transaction not recognised,6216.5,1,1,1,1,2,1,0,1
+DSP-2132,ORD-10944,Transaction not recognised,6036.58,0,0,1,0,0,2,0,0
+DSP-2133,ORD-13413,Defective item,1087.81,1,1,0,1,1,0,1,1
+DSP-2134,ORD-12209,Item not received,2285.64,1,0,0,1,3,10,0,0
+DSP-2135,ORD-13356,Transaction not recognised,2638.24,0,0,1,0,3,6,0,1
+DSP-2136,ORD-14560,Duplicate charge,5846.27,1,1,0,1,0,0,0,1
+DSP-2137,ORD-11679,Item not received,6836.88,1,1,0,1,0,8,0,1
+DSP-2138,ORD-14879,Defective item,2476.91,1,1,1,1,2,8,0,1
+DSP-2139,ORD-12004,Transaction not recognised,4466.29,0,0,0,0,3,1,0,0
+DSP-2140,ORD-12149,Item not received,4414.34,0,0,0,0,1,2,0,0
+DSP-2141,ORD-10528,Transaction not recognised,3736.29,0,0,0,0,0,1,1,0
+DSP-2142,ORD-13959,Duplicate charge,5166.51,1,1,1,1,0,0,0,1
+DSP-2143,ORD-13728,Transaction not recognised,12728.8,1,1,1,1,1,25,0,1
+DSP-2144,ORD-14491,Duplicate charge,8146.12,1,0,1,1,4,5,0,1
+DSP-2145,ORD-14854,Defective item,8635.33,0,0,1,0,0,5,0,0
+DSP-2146,ORD-14871,Defective item,3564.74,0,0,1,0,1,43,1,0
+DSP-2147,ORD-12872,Item not received,8443.99,1,1,1,1,2,29,0,1
+DSP-2148,ORD-14647,Item not received,18636.52,1,1,1,1,0,4,1,1
+DSP-2149,ORD-15387,Item not received,4272.62,1,1,0,1,0,5,0,1
+DSP-2150,ORD-10453,Duplicate charge,5485.35,1,1,0,1,0,11,0,1
+DSP-2151,ORD-15017,Duplicate charge,2792.06,1,1,0,1,0,8,0,1
+DSP-2152,ORD-11281,Duplicate charge,4138.08,1,0,1,1,3,9,0,1
+DSP-2153,ORD-14588,Defective item,1595.86,1,1,1,0,2,2,1,1
+DSP-2154,ORD-15338,Duplicate charge,7705.36,0,0,1,0,1,5,0,1
+DSP-2155,ORD-13480,Defective item,3134.35,1,1,1,1,1,17,0,1
+DSP-2156,ORD-15937,Item not as described,4581.62,1,0,1,1,1,4,0,0
+DSP-2157,ORD-14663,Item not as described,3879.98,0,0,0,0,0,8,0,0
+DSP-2158,ORD-10091,Duplicate charge,6187.34,1,0,1,1,4,15,1,1
+DSP-2159,ORD-11150,Item not received,6262.97,1,1,0,1,2,13,1,1
+DSP-2160,ORD-10222,Defective item,6935.13,1,0,0,1,1,6,0,0
+DSP-2161,ORD-13315,Item not received,9558.94,1,1,1,1,3,36,1,0
+DSP-2162,ORD-15088,Transaction not recognised,3353.65,1,1,1,1,1,8,0,1
+DSP-2163,ORD-12617,Transaction not recognised,9806.19,1,1,1,1,3,4,1,1
+DSP-2164,ORD-12277,Item not as described,2147.02,1,0,0,0,1,32,2,0
+DSP-2165,ORD-15493,Transaction not recognised,5816.44,1,1,1,1,0,5,0,1
+DSP-2166,ORD-14053,Item not received,2868.98,0,0,0,0,4,13,1,0
+DSP-2167,ORD-13210,Transaction not recognised,3295.53,1,1,0,1,1,1,0,1
+DSP-2168,ORD-13038,Transaction not recognised,2774.59,1,1,1,1,1,0,0,1
+DSP-2169,ORD-12860,Item not received,4369.92,0,0,0,0,1,4,0,0
+DSP-2170,ORD-13403,Item not received,4337.58,0,0,0,0,0,17,1,0
+DSP-2171,ORD-14528,Duplicate charge,4501.01,1,1,1,1,2,19,1,1
+DSP-2172,ORD-14265,Duplicate charge,2762.69,0,0,0,0,1,5,1,1
+DSP-2173,ORD-15939,Transaction not recognised,2368.58,1,1,0,1,1,0,0,1
+DSP-2174,ORD-13490,Defective item,4748.16,1,1,1,1,1,11,1,1
+DSP-2175,ORD-14581,Item not as described,6219.77,1,0,1,1,3,19,1,1
+DSP-2176,ORD-14226,Transaction not recognised,4873.0,1,1,0,1,1,26,0,0
+DSP-2177,ORD-10376,Item not received,6048.7,1,1,1,1,4,28,1,1
+DSP-2178,ORD-11994,Duplicate charge,19593.2,1,1,0,1,1,1,1,1
+DSP-2179,ORD-13620,Transaction not recognised,7350.66,1,0,1,1,2,3,1,1
+DSP-2180,ORD-12405,Duplicate charge,3201.91,0,0,1,0,2,28,0,0
+DSP-2181,ORD-14113,Item not received,6276.75,1,1,0,1,2,1,0,1
+DSP-2182,ORD-11239,Defective item,2496.32,1,1,0,1,3,6,0,1
+DSP-2183,ORD-10380,Item not as described,4386.12,1,1,0,1,0,4,1,1
+DSP-2184,ORD-10485,Defective item,5221.19,1,1,1,1,3,21,0,1
+DSP-2185,ORD-12004,Duplicate charge,4366.66,0,0,0,0,0,15,1,0
+DSP-2186,ORD-10938,Item not received,17622.31,1,1,0,1,1,10,0,1
+DSP-2187,ORD-12330,Item not received,4636.52,1,1,1,1,1,7,0,1
+DSP-2188,ORD-12554,Item not received,3753.45,1,1,0,1,1,10,0,1
+DSP-2189,ORD-13912,Transaction not recognised,6079.25,1,1,0,1,0,5,1,1
+DSP-2190,ORD-12540,Item not received,2208.45,1,0,0,1,1,13,0,0
+DSP-2191,ORD-15317,Defective item,3450.53,0,0,0,0,1,4,1,0
+DSP-2192,ORD-14146,Transaction not recognised,8129.99,0,0,0,0,2,13,0,0
+DSP-2193,ORD-11729,Item not received,3344.75,0,0,1,0,2,10,1,0
+DSP-2194,ORD-14177,Defective item,4073.73,1,1,1,1,1,4,1,1
+DSP-2195,ORD-12431,Item not received,2329.68,1,1,1,1,2,17,0,1
+DSP-2196,ORD-13333,Item not as described,4104.02,1,1,0,1,1,0,1,1
+DSP-2197,ORD-12924,Duplicate charge,4164.01,1,1,1,1,0,3,1,1
+DSP-2198,ORD-15933,Item not as described,3306.83,1,0,1,1,2,2,1,0
+DSP-2199,ORD-14061,Defective item,4867.29,0,0,1,0,2,4,0,0
+DSP-2200,ORD-14713,Item not as described,4260.7,0,0,1,0,2,0,1,1
+DSP-2201,ORD-10602,Duplicate charge,3442.72,1,1,1,1,0,0,1,1
+DSP-2202,ORD-10947,Duplicate charge,11668.03,0,0,0,0,1,26,0,0
+DSP-2203,ORD-10840,Duplicate charge,6796.8,0,0,0,0,2,49,1,0
+DSP-2204,ORD-12408,Item not as described,6272.25,0,0,1,0,1,4,0,0
+DSP-2205,ORD-12067,Duplicate charge,3583.09,1,1,1,1,3,1,0,1
+DSP-2206,ORD-11268,Transaction not recognised,3185.55,1,1,0,1,0,8,1,1
+DSP-2207,ORD-11410,Transaction not recognised,23622.78,1,1,1,1,5,3,1,1
+DSP-2208,ORD-14081,Item not as described,2818.28,0,0,0,0,0,17,1,0
+DSP-2209,ORD-14549,Defective item,3622.24,0,0,1,0,3,0,0,1
+DSP-2210,ORD-11896,Item not received,3213.56,1,1,0,1,0,0,1,1
+DSP-2211,ORD-12275,Item not as described,3401.57,1,1,1,0,2,6,2,1
+DSP-2212,ORD-13668,Item not as described,6135.03,1,0,1,1,2,2,0,0
+DSP-2213,ORD-12150,Item not received,1599.36,0,0,1,0,2,0,2,0
+DSP-2214,ORD-15184,Item not received,4719.55,1,1,1,1,0,24,1,1
+DSP-2215,ORD-12104,Item not as described,12242.98,1,1,0,1,2,2,0,0
+DSP-2216,ORD-15982,Item not received,3683.89,1,0,0,1,2,1,1,1
+DSP-2217,ORD-14939,Duplicate charge,3379.24,1,1,1,1,0,5,0,1
+DSP-2218,ORD-14867,Item not as described,5120.44,0,0,0,0,2,4,0,0
+DSP-2219,ORD-11422,Duplicate charge,7614.12,0,0,0,0,1,20,0,0
+DSP-2220,ORD-12547,Duplicate charge,3886.05,1,1,0,1,1,0,0,1
+DSP-2221,ORD-11015,Duplicate charge,9846.45,1,1,1,1,2,7,0,1
+DSP-2222,ORD-11617,Item not as described,4487.08,1,1,1,1,1,20,0,1
+DSP-2223,ORD-10723,Item not as described,2735.69,0,0,1,0,1,20,0,1
+DSP-2224,ORD-10072,Item not as described,7767.86,1,0,0,1,3,4,0,1
+DSP-2225,ORD-11158,Defective item,3329.27,1,1,1,0,2,3,2,1
+DSP-2226,ORD-12243,Duplicate charge,3237.44,1,1,0,1,1,11,1,1
+DSP-2227,ORD-13856,Defective item,2971.13,0,0,0,0,2,8,0,0
+DSP-2228,ORD-15065,Item not received,2895.5,1,1,1,1,1,3,2,1
+DSP-2229,ORD-11297,Item not as described,7966.13,1,0,0,1,1,13,0,1
+DSP-2230,ORD-13518,Duplicate charge,5653.49,1,1,1,1,0,8,0,1
+DSP-2231,ORD-11012,Duplicate charge,6395.71,1,0,1,1,2,1,0,1
+DSP-2232,ORD-13750,Defective item,1765.74,1,1,1,0,2,0,0,1
+DSP-2233,ORD-10597,Transaction not recognised,1544.33,1,1,1,1,1,0,0,1
+DSP-2234,ORD-15961,Item not as described,3973.99,1,1,0,1,5,6,1,1
+DSP-2235,ORD-15625,Duplicate charge,6225.21,1,1,0,0,3,1,0,1
+DSP-2236,ORD-11529,Transaction not recognised,3346.22,1,1,0,1,3,0,1,1
+DSP-2237,ORD-10879,Item not received,6233.23,1,1,0,1,1,5,0,1
+DSP-2238,ORD-15575,Duplicate charge,2162.0,1,1,1,1,3,8,2,1
+DSP-2239,ORD-15964,Defective item,20862.15,1,1,0,1,0,1,0,1
+DSP-2240,ORD-12044,Item not received,10821.53,1,1,1,1,2,11,0,1
+DSP-2241,ORD-15678,Duplicate charge,4647.68,1,1,1,1,0,10,1,1
+DSP-2242,ORD-15473,Defective item,4020.22,1,1,1,1,2,14,0,1
+DSP-2243,ORD-10709,Item not as described,4074.88,1,1,1,1,2,15,0,1
+DSP-2244,ORD-13442,Transaction not recognised,5095.86,1,1,0,1,2,25,0,1
+DSP-2245,ORD-13361,Item not as described,3946.93,1,1,1,1,0,26,0,0
+DSP-2246,ORD-14523,Item not as described,4033.72,0,0,1,0,1,7,1,0
+DSP-2247,ORD-15704,Defective item,3103.37,1,0,0,1,2,10,0,0
+DSP-2248,ORD-10813,Item not as described,7800.3,0,0,0,0,1,9,0,0
+DSP-2249,ORD-10633,Item not as described,3418.39,1,0,1,1,1,1,0,1
+DSP-2250,ORD-14066,Transaction not recognised,3374.03,0,0,0,0,3,6,1,0
+DSP-2251,ORD-15011,Item not received,7510.67,1,1,0,1,0,5,0,1
+DSP-2252,ORD-13065,Duplicate charge,3576.04,1,1,0,1,1,1,1,1
+DSP-2253,ORD-13205,Item not received,19259.19,0,0,1,0,3,16,0,0
+DSP-2254,ORD-12383,Defective item,3596.49,0,0,0,0,3,4,1,1
+DSP-2255,ORD-13714,Item not received,2986.33,1,1,0,1,1,8,0,1
+DSP-2256,ORD-11597,Item not received,4956.32,0,0,0,0,1,30,2,0
+DSP-2257,ORD-15447,Defective item,5605.21,1,0,1,0,3,9,1,1
+DSP-2258,ORD-12330,Duplicate charge,4443.09,1,1,1,1,4,14,1,0
+DSP-2259,ORD-14376,Duplicate charge,6538.09,1,0,0,1,0,15,1,0
+DSP-2260,ORD-12704,Defective item,1777.48,1,1,1,1,0,7,1,1
+DSP-2261,ORD-15562,Item not as described,17012.12,1,1,1,1,1,1,1,1
+DSP-2262,ORD-12430,Item not as described,1789.42,0,0,1,0,2,12,0,1
+DSP-2263,ORD-14008,Defective item,1894.53,1,1,1,0,3,11,1,0
+DSP-2264,ORD-14916,Transaction not recognised,8229.04,1,1,1,1,3,6,0,1
+DSP-2265,ORD-11422,Transaction not recognised,7878.6,1,1,1,1,4,1,1,1
+DSP-2266,ORD-14904,Transaction not recognised,2321.51,0,0,1,0,0,2,0,0
+DSP-2267,ORD-10139,Defective item,7591.28,1,0,1,1,0,1,0,1
+DSP-2268,ORD-14037,Transaction not recognised,5822.37,0,0,1,0,1,6,1,1
+DSP-2269,ORD-14760,Transaction not recognised,2898.2,1,0,1,1,1,24,0,1
+DSP-2270,ORD-10778,Item not received,6281.3,0,0,1,0,1,8,0,0
+DSP-2271,ORD-15788,Item not received,12553.49,0,0,0,0,1,1,1,0
+DSP-2272,ORD-13445,Defective item,4151.9,1,1,1,1,0,8,0,1
+DSP-2273,ORD-15063,Defective item,4880.94,1,1,1,1,1,2,0,1
+DSP-2274,ORD-10058,Item not as described,3341.1,0,0,0,0,2,44,0,0
+DSP-2275,ORD-10632,Duplicate charge,7945.85,1,1,0,1,1,3,0,1
+DSP-2276,ORD-11857,Duplicate charge,1540.15,0,0,1,0,3,6,0,1
+DSP-2277,ORD-10863,Item not as described,1873.74,1,1,1,1,0,4,0,1
+DSP-2278,ORD-12592,Item not received,1651.84,1,1,1,1,3,3,0,1
+DSP-2279,ORD-10902,Duplicate charge,15732.74,0,0,1,0,1,6,1,1
+DSP-2280,ORD-10095,Defective item,3142.71,1,1,1,1,2,8,0,0
+DSP-2281,ORD-13612,Item not received,3937.35,0,0,0,0,2,2,2,0
+DSP-2282,ORD-10712,Item not as described,2878.68,1,1,1,1,1,0,0,1
+DSP-2283,ORD-10896,Duplicate charge,2297.49,0,0,1,0,0,25,1,1
+DSP-2284,ORD-13083,Item not as described,6504.88,1,1,0,1,1,3,0,0
+DSP-2285,ORD-13468,Duplicate charge,4793.54,0,0,1,0,1,21,0,0
+DSP-2286,ORD-13635,Item not received,7693.82,1,1,0,1,2,4,0,1
+DSP-2287,ORD-11569,Transaction not recognised,4181.25,1,1,1,1,1,4,0,1
+DSP-2288,ORD-14040,Item not as described,2790.96,1,1,0,0,1,0,0,0
+DSP-2289,ORD-15115,Transaction not recognised,8182.34,1,0,1,1,1,17,1,0
+DSP-2290,ORD-10808,Defective item,2744.98,1,1,1,1,1,8,0,1
+DSP-2291,ORD-10766,Duplicate charge,3120.76,0,0,1,0,2,20,1,0
+DSP-2292,ORD-12553,Item not received,7753.25,1,1,1,1,1,0,0,1
+DSP-2293,ORD-10609,Transaction not recognised,9522.35,0,0,0,0,4,15,1,0
+DSP-2294,ORD-10757,Item not as described,1394.85,1,0,1,1,0,2,0,0
+DSP-2295,ORD-14891,Defective item,1168.51,0,0,1,0,0,11,0,0
+DSP-2296,ORD-10040,Transaction not recognised,10535.11,1,0,0,1,1,6,2,0
+DSP-2297,ORD-13303,Item not as described,2517.29,1,0,0,1,2,8,1,0
+DSP-2298,ORD-15505,Item not received,4609.85,1,1,1,1,0,2,0,1
+DSP-2299,ORD-15324,Item not as described,3981.33,1,1,0,1,3,12,1,1
+DSP-2300,ORD-12929,Item not received,2742.31,1,1,1,1,0,2,0,1
+DSP-2301,ORD-12598,Duplicate charge,3571.1,1,1,1,1,2,11,1,1
+DSP-2302,ORD-15813,Transaction not recognised,4728.65,0,0,0,0,1,13,1,0
+DSP-2303,ORD-12295,Duplicate charge,5360.61,1,0,0,1,3,0,0,1
+DSP-2304,ORD-10571,Item not as described,5493.72,1,1,1,1,3,3,1,0
+DSP-2305,ORD-13575,Item not received,6451.75,1,0,1,1,1,0,1,1
+DSP-2306,ORD-15277,Item not as described,4572.84,1,1,1,1,2,15,0,1
+DSP-2307,ORD-10600,Duplicate charge,2765.46,0,0,0,0,1,11,0,1
+DSP-2308,ORD-14895,Item not received,8000.73,1,1,1,1,0,14,0,1
+DSP-2309,ORD-13461,Transaction not recognised,7076.08,1,1,0,1,0,33,0,0
+DSP-2310,ORD-11542,Duplicate charge,11067.66,1,1,0,1,3,7,1,1
+DSP-2311,ORD-13523,Item not as described,4953.08,1,1,0,1,3,1,0,1
+DSP-2312,ORD-10787,Item not received,2442.51,0,0,0,0,1,32,1,0
+DSP-2313,ORD-12380,Item not as described,2884.12,1,0,0,0,3,19,0,0
+DSP-2314,ORD-15600,Duplicate charge,6198.2,0,0,0,0,1,10,1,0
+DSP-2315,ORD-10372,Item not received,10400.56,0,0,1,0,0,12,0,0
+DSP-2316,ORD-10438,Duplicate charge,2093.36,1,1,0,1,3,26,1,1
+DSP-2317,ORD-15518,Item not received,5329.28,1,1,1,1,1,40,0,1
+DSP-2318,ORD-11969,Transaction not recognised,4739.42,1,0,0,1,0,4,0,0
+DSP-2319,ORD-13840,Item not as described,1541.5,1,1,0,1,1,15,0,0
+DSP-2320,ORD-12951,Item not as described,5869.51,1,1,1,1,1,0,2,1
+DSP-2321,ORD-15453,Item not as described,4831.88,0,0,1,0,1,3,0,1
+DSP-2322,ORD-10033,Duplicate charge,8481.46,0,0,1,0,2,2,0,1
+DSP-2323,ORD-13259,Defective item,4559.21,1,1,0,1,1,1,0,1
+DSP-2324,ORD-14625,Defective item,1687.38,1,1,0,1,2,3,0,1
+DSP-2325,ORD-14673,Item not received,2800.25,1,1,0,1,2,8,0,1
+DSP-2326,ORD-10406,Item not as described,9503.44,1,1,1,1,0,9,0,1
+DSP-2327,ORD-15202,Duplicate charge,7158.21,0,0,0,0,1,11,4,0
+DSP-2328,ORD-12206,Item not as described,3580.04,1,1,0,1,1,11,0,1
+DSP-2329,ORD-15212,Item not received,22105.77,0,0,0,0,3,53,0,0
+DSP-2330,ORD-14364,Duplicate charge,7583.84,1,1,0,1,0,9,1,1
+DSP-2331,ORD-10964,Item not received,5136.22,1,1,1,1,2,7,0,1
+DSP-2332,ORD-14541,Duplicate charge,4349.16,0,0,1,0,4,21,0,1
+DSP-2333,ORD-10666,Item not as described,3862.14,0,0,0,0,2,7,0,1
+DSP-2334,ORD-11754,Item not as described,6324.62,1,1,1,1,0,6,0,1
+DSP-2335,ORD-11009,Defective item,5722.2,0,0,0,0,1,2,0,0
+DSP-2336,ORD-12287,Duplicate charge,4643.64,1,1,1,0,1,9,0,1
+DSP-2337,ORD-11904,Item not as described,2972.63,1,1,1,1,0,10,0,1
+DSP-2338,ORD-15539,Duplicate charge,3357.39,0,0,1,0,1,1,1,0
+DSP-2339,ORD-10284,Transaction not recognised,4677.32,0,0,1,0,1,2,1,1
+DSP-2340,ORD-10536,Duplicate charge,3205.53,1,0,1,1,3,17,1,1
+DSP-2341,ORD-14641,Defective item,6022.1,1,1,1,0,0,14,0,1
+DSP-2342,ORD-10017,Item not as described,4222.18,1,0,1,0,1,1,1,0
+DSP-2343,ORD-15784,Defective item,3101.78,1,1,0,1,2,10,1,1
+DSP-2344,ORD-12852,Defective item,3489.5,1,1,0,1,1,16,0,1
+DSP-2345,ORD-10585,Duplicate charge,7820.75,1,1,0,1,1,20,0,1
+DSP-2346,ORD-10603,Item not as described,18556.11,1,1,1,1,2,2,0,1
+DSP-2347,ORD-15541,Item not as described,10559.34,1,1,1,1,0,14,0,1
+DSP-2348,ORD-12362,Item not received,4435.24,1,1,0,1,1,1,1,1
+DSP-2349,ORD-10273,Item not received,8923.72,1,1,0,1,3,16,1,1
+DSP-2350,ORD-13887,Defective item,5304.02,1,1,0,1,2,8,0,1
+DSP-2351,ORD-12493,Item not received,4430.43,0,0,0,0,2,5,1,0
+DSP-2352,ORD-12893,Item not as described,3961.14,1,0,1,1,2,27,1,0
+DSP-2353,ORD-15062,Defective item,10412.26,0,0,0,0,1,10,0,0
+DSP-2354,ORD-11522,Item not as described,7445.87,1,0,1,1,1,16,1,0
+DSP-2355,ORD-13656,Item not as described,4282.13,1,1,1,0,2,18,0,1
+DSP-2356,ORD-12211,Item not received,17159.82,1,1,1,1,0,13,0,1
+DSP-2357,ORD-15226,Defective item,7215.39,1,1,0,1,1,1,0,1
+DSP-2358,ORD-11894,Transaction not recognised,2700.34,0,0,1,0,1,4,2,0
+DSP-2359,ORD-12183,Defective item,8594.75,1,1,1,1,1,5,0,1
+DSP-2360,ORD-10124,Duplicate charge,7596.41,1,0,1,1,1,3,0,0
+DSP-2361,ORD-11066,Item not received,11218.34,1,1,1,1,2,10,0,1
+DSP-2362,ORD-11018,Item not as described,2510.34,0,0,1,0,2,9,0,1
+DSP-2363,ORD-12637,Defective item,10731.29,1,1,1,1,1,13,0,1
+DSP-2364,ORD-12296,Item not received,2732.22,0,0,1,0,0,6,0,0
+DSP-2365,ORD-12900,Duplicate charge,4845.18,1,0,0,0,2,0,0,0
+DSP-2366,ORD-11923,Item not as described,5007.6,1,0,1,1,1,7,0,1
+DSP-2367,ORD-13366,Item not as described,4025.73,0,0,1,0,0,3,0,1
+DSP-2368,ORD-11908,Duplicate charge,10590.01,1,1,0,1,1,8,0,1
+DSP-2369,ORD-10854,Item not received,2607.27,1,1,1,1,2,2,0,1
+DSP-2370,ORD-10934,Defective item,9282.04,1,1,1,1,1,6,2,1
+DSP-2371,ORD-10068,Item not as described,1958.01,1,1,1,1,1,0,0,0
+DSP-2372,ORD-14757,Item not as described,5159.17,1,1,1,1,0,3,2,0
+DSP-2373,ORD-13039,Item not as described,12158.88,0,0,0,0,1,0,1,0
+DSP-2374,ORD-13676,Defective item,6766.52,1,1,0,1,0,4,1,0
+DSP-2375,ORD-12631,Transaction not recognised,3020.49,1,1,1,1,1,0,1,1
+DSP-2376,ORD-14714,Item not received,4496.49,0,0,0,0,1,0,1,0
+DSP-2377,ORD-15114,Defective item,9077.22,1,1,1,1,1,15,2,0
+DSP-2378,ORD-10280,Item not received,9030.14,1,0,0,0,1,10,2,0
+DSP-2379,ORD-12570,Defective item,1945.97,1,1,0,1,1,23,1,0
+DSP-2380,ORD-13394,Transaction not recognised,17449.79,1,0,1,1,1,6,1,0
+DSP-2381,ORD-12274,Defective item,2704.8,0,0,0,0,2,4,0,0
+DSP-2382,ORD-14412,Transaction not recognised,2220.34,1,0,1,0,1,5,1,0
+DSP-2383,ORD-11519,Item not received,4349.27,0,0,1,0,0,7,0,1
+DSP-2384,ORD-15208,Item not received,2640.17,0,0,1,0,1,2,0,0
+DSP-2385,ORD-15656,Transaction not recognised,9850.61,0,0,0,0,0,4,0,0
+DSP-2386,ORD-10958,Transaction not recognised,3305.25,1,1,1,1,1,0,0,1
+DSP-2387,ORD-10196,Duplicate charge,2355.31,1,1,0,1,1,4,2,1
+DSP-2388,ORD-15153,Item not received,2296.03,1,1,0,1,0,1,1,1
+DSP-2389,ORD-12226,Defective item,4961.3,1,1,1,1,1,1,0,1
+DSP-2390,ORD-12406,Duplicate charge,3982.36,1,1,1,1,2,11,1,1
+DSP-2391,ORD-13154,Item not received,4769.02,1,1,1,1,2,6,2,1
+DSP-2392,ORD-13610,Defective item,4758.16,0,0,1,0,2,20,1,0
+DSP-2393,ORD-11163,Transaction not recognised,2854.81,1,1,1,1,2,1,0,1
+DSP-2394,ORD-14344,Transaction not recognised,6546.03,1,1,1,1,1,40,1,0
+DSP-2395,ORD-11397,Item not received,4358.98,1,1,0,1,2,5,0,1
+DSP-2396,ORD-15389,Item not received,2900.89,0,0,1,0,3,23,1,1
+DSP-2397,ORD-11968,Transaction not recognised,4577.95,1,1,1,1,1,13,0,1
+DSP-2398,ORD-14073,Item not received,3354.56,1,1,0,0,1,6,0,1
+DSP-2399,ORD-15912,Transaction not recognised,3746.9,1,1,1,0,3,3,0,1
+DSP-2400,ORD-10831,Duplicate charge,3013.84,0,0,0,0,0,8,0,0
+DSP-2401,ORD-14783,Item not received,1020.71,1,0,0,1,2,11,0,1
+DSP-2402,ORD-14177,Duplicate charge,5469.72,1,1,1,0,0,25,0,1
+DSP-2403,ORD-12317,Transaction not recognised,14869.02,0,0,1,0,2,6,1,0
+DSP-2404,ORD-11474,Transaction not recognised,16724.99,0,0,0,0,2,4,0,0
+DSP-2405,ORD-10551,Transaction not recognised,7679.95,1,1,0,1,2,5,0,1
+DSP-2406,ORD-15183,Item not received,2778.25,0,0,0,0,1,20,0,0
+DSP-2407,ORD-14879,Item not as described,25199.78,1,1,0,1,2,26,0,0
+DSP-2408,ORD-14707,Item not as described,2666.58,0,0,1,0,4,2,1,0
+DSP-2409,ORD-14712,Item not received,3920.72,1,1,0,0,2,7,0,0
+DSP-2410,ORD-14459,Transaction not recognised,6031.49,1,1,0,1,2,15,1,1
+DSP-2411,ORD-14751,Transaction not recognised,1607.49,0,0,1,0,1,7,1,0
+DSP-2412,ORD-10149,Item not as described,1390.29,1,1,0,1,0,7,0,1
+DSP-2413,ORD-15517,Duplicate charge,5719.29,0,0,1,0,1,0,0,0
+DSP-2414,ORD-10370,Duplicate charge,3463.1,1,1,1,0,3,3,0,1
+DSP-2415,ORD-13723,Transaction not recognised,19151.9,1,0,1,1,1,16,1,0
+DSP-2416,ORD-13749,Item not received,5830.05,1,0,1,1,0,12,1,1
+DSP-2417,ORD-10987,Duplicate charge,2229.58,1,0,0,1,2,1,0,1
+DSP-2418,ORD-15388,Defective item,9073.88,1,1,1,1,0,3,1,1
+DSP-2419,ORD-10126,Defective item,2291.16,1,1,0,1,1,0,2,0
+DSP-2420,ORD-12609,Defective item,3254.79,0,0,1,0,4,16,1,0
+DSP-2421,ORD-14843,Defective item,4518.58,1,1,0,1,0,3,0,1
+DSP-2422,ORD-13942,Duplicate charge,12863.75,1,1,0,1,0,2,1,1
+DSP-2423,ORD-10453,Item not received,4728.54,1,1,1,1,2,13,0,1
+DSP-2424,ORD-15711,Item not as described,1735.02,0,0,0,0,3,15,0,0
+DSP-2425,ORD-15086,Item not received,5290.16,1,0,1,1,1,8,1,0
+DSP-2426,ORD-11082,Defective item,2622.1,0,0,1,0,2,2,0,0
+DSP-2427,ORD-14502,Transaction not recognised,9855.02,1,1,1,0,1,8,1,1
+DSP-2428,ORD-15514,Transaction not recognised,6082.15,1,1,0,1,2,1,0,1
+DSP-2429,ORD-12735,Duplicate charge,8673.73,1,0,0,0,2,0,0,1
+DSP-2430,ORD-10080,Item not received,3023.53,0,0,0,0,2,0,1,0
+DSP-2431,ORD-11170,Duplicate charge,2819.23,1,0,1,1,3,9,0,1
+DSP-2432,ORD-15876,Duplicate charge,2616.58,1,1,1,1,1,14,0,1
+DSP-2433,ORD-13492,Defective item,8927.66,1,1,0,1,2,0,1,0
+DSP-2434,ORD-15211,Duplicate charge,7212.15,1,1,1,1,2,0,0,1
+DSP-2435,ORD-12164,Item not as described,6249.93,0,0,1,0,1,18,0,0
+DSP-2436,ORD-11610,Defective item,21011.83,1,0,0,1,0,11,0,0
+DSP-2437,ORD-12907,Transaction not recognised,8199.64,1,0,0,1,2,6,0,1
+DSP-2438,ORD-14022,Item not as described,8693.34,1,0,1,1,1,3,0,1
+DSP-2439,ORD-15573,Item not received,3309.3,1,1,0,1,3,1,0,1
+DSP-2440,ORD-14975,Duplicate charge,9188.11,1,1,0,1,1,1,0,1
+DSP-2441,ORD-14343,Item not as described,1673.92,1,1,0,1,1,3,0,1
+DSP-2442,ORD-14291,Item not received,5088.23,1,1,1,1,0,0,1,1
+DSP-2443,ORD-11158,Item not received,4824.24,1,1,0,1,1,8,1,1
+DSP-2444,ORD-13540,Item not as described,6019.76,0,0,1,0,1,1,0,0
+DSP-2445,ORD-15107,Defective item,2693.27,0,0,1,0,2,1,0,0
+DSP-2446,ORD-15003,Transaction not recognised,4931.77,1,1,0,1,3,22,0,1
+DSP-2447,ORD-12153,Defective item,7638.92,1,1,1,1,1,17,0,1
+DSP-2448,ORD-10773,Item not received,1841.49,1,0,1,1,0,23,1,0
+DSP-2449,ORD-10225,Transaction not recognised,2602.42,1,1,1,0,1,2,2,1
+DSP-2450,ORD-10487,Item not as described,8531.86,0,0,1,0,1,20,0,0
+DSP-2451,ORD-11263,Transaction not recognised,11953.46,1,1,1,1,1,17,1,1
+DSP-2452,ORD-13945,Item not as described,7539.94,1,0,0,1,3,2,0,1
+DSP-2453,ORD-12351,Transaction not recognised,3829.8,0,0,0,0,4,48,0,0
+DSP-2454,ORD-15143,Item not as described,2900.14,1,1,1,1,1,18,0,1
+DSP-2455,ORD-11468,Defective item,4576.21,1,1,0,1,1,6,0,0
+DSP-2456,ORD-10611,Duplicate charge,1155.36,1,1,0,0,0,4,0,1
+DSP-2457,ORD-13633,Duplicate charge,7473.2,1,1,0,1,2,10,0,1
+DSP-2458,ORD-15758,Defective item,1642.52,1,1,0,1,2,8,0,1
+DSP-2459,ORD-15795,Defective item,4328.98,1,1,1,1,0,5,0,1
+DSP-2460,ORD-12198,Duplicate charge,4738.13,1,1,1,1,1,0,1,1
+DSP-2461,ORD-13994,Defective item,5376.44,1,1,1,1,4,26,1,1
+DSP-2462,ORD-10147,Duplicate charge,2928.76,1,1,1,1,1,8,0,1
+DSP-2463,ORD-13120,Duplicate charge,5765.54,1,0,0,1,2,0,0,0
+DSP-2464,ORD-15453,Transaction not recognised,3010.42,1,1,1,1,2,23,0,1
+DSP-2465,ORD-13769,Defective item,4918.97,1,1,1,1,0,2,1,1
+DSP-2466,ORD-12035,Item not received,4092.96,1,1,0,1,1,16,0,1
+DSP-2467,ORD-12384,Duplicate charge,11410.0,1,0,1,1,0,0,1,0
+DSP-2468,ORD-11712,Defective item,1795.54,1,0,1,1,1,20,0,1
+DSP-2469,ORD-13241,Item not received,3903.17,1,1,1,1,0,32,0,1
+DSP-2470,ORD-11793,Duplicate charge,3090.13,0,0,0,0,2,12,0,1
+DSP-2471,ORD-13777,Duplicate charge,2730.97,1,1,0,1,0,1,1,1
+DSP-2472,ORD-14093,Transaction not recognised,5370.45,1,1,0,1,1,7,0,0
+DSP-2473,ORD-13647,Item not as described,3215.86,1,0,0,1,2,18,0,0
+DSP-2474,ORD-10683,Item not as described,4497.58,1,1,1,1,2,3,0,1
+DSP-2475,ORD-14518,Item not received,12684.22,1,0,1,1,0,21,0,1
+DSP-2476,ORD-15947,Defective item,15004.95,0,0,0,0,3,31,2,0
+DSP-2477,ORD-15672,Transaction not recognised,6470.79,1,1,1,1,4,0,0,1
+DSP-2478,ORD-12218,Defective item,2273.18,1,1,1,1,2,0,0,1
+DSP-2479,ORD-14563,Item not as described,3224.38,1,1,0,1,1,0,0,1
+DSP-2480,ORD-10430,Item not received,5463.45,0,0,1,0,2,24,0,1
+DSP-2481,ORD-15797,Item not received,11702.05,0,0,0,0,2,16,0,0
+DSP-2482,ORD-15137,Item not received,3790.75,1,1,0,1,2,2,0,1
+DSP-2483,ORD-15757,Duplicate charge,2799.94,1,0,1,1,2,14,0,1
+DSP-2484,ORD-13970,Transaction not recognised,2370.65,0,0,0,0,6,3,0,1
+DSP-2485,ORD-12722,Defective item,8377.22,1,1,1,0,0,3,0,1
+DSP-2486,ORD-13282,Duplicate charge,1301.46,1,1,1,1,0,3,0,1
+DSP-2487,ORD-15430,Transaction not recognised,4163.57,0,0,1,0,0,1,0,0
+DSP-2488,ORD-10867,Defective item,3231.69,1,1,0,1,1,17,0,0
+DSP-2489,ORD-10795,Defective item,6490.16,1,1,1,1,3,2,0,1
+DSP-2490,ORD-12705,Duplicate charge,6369.02,1,0,1,1,3,2,0,1
+DSP-2491,ORD-14029,Transaction not recognised,12109.63,0,0,1,0,1,4,0,1
+DSP-2492,ORD-10748,Defective item,3418.59,1,0,0,1,3,6,1,0
+DSP-2493,ORD-12134,Transaction not recognised,4883.44,0,0,1,0,0,2,2,0
+DSP-2494,ORD-14342,Item not as described,4189.67,0,0,1,0,1,7,0,0
+DSP-2495,ORD-13590,Defective item,3441.95,1,1,1,1,0,0,0,1
+DSP-2496,ORD-15057,Defective item,3549.49,1,0,0,1,0,6,0,0
+DSP-2497,ORD-10953,Duplicate charge,6329.14,1,1,1,1,3,6,0,1
+DSP-2498,ORD-10643,Transaction not recognised,6525.52,1,0,1,0,0,33,0,0
+DSP-2499,ORD-12948,Duplicate charge,3045.15,1,1,1,0,1,6,2,1
+DSP-2500,ORD-13206,Defective item,2025.75,1,1,1,1,1,0,2,1
+DSP-2501,ORD-10995,Duplicate charge,6705.73,0,0,0,0,2,22,1,0
+DSP-2502,ORD-14049,Duplicate charge,5639.37,0,0,1,0,2,6,0,1
+DSP-2503,ORD-15819,Duplicate charge,14845.56,1,1,0,1,4,0,0,1
+DSP-2504,ORD-13876,Defective item,2225.48,0,0,1,0,2,3,0,1
+DSP-2505,ORD-14337,Defective item,3226.37,1,1,0,1,0,3,0,1
+DSP-2506,ORD-13505,Duplicate charge,3069.91,0,0,1,0,0,18,0,1
+DSP-2507,ORD-11905,Duplicate charge,1710.21,1,1,0,1,0,21,1,1
+DSP-2508,ORD-11237,Transaction not recognised,7470.33,1,1,1,0,1,0,0,1
+DSP-2509,ORD-11819,Item not received,7094.28,1,1,1,1,0,16,1,1
+DSP-2510,ORD-14291,Item not as described,6076.65,1,0,0,1,2,17,0,0
+DSP-2511,ORD-12347,Defective item,1774.22,1,1,1,1,1,4,1,1
+DSP-2512,ORD-14419,Duplicate charge,8924.71,1,1,1,1,0,11,0,0
+DSP-2513,ORD-10498,Item not received,5892.94,1,1,1,1,1,21,2,1
+DSP-2514,ORD-12930,Defective item,5568.8,1,1,1,1,1,10,0,1
+DSP-2515,ORD-13304,Duplicate charge,4521.88,0,0,1,0,3,10,0,1
+DSP-2516,ORD-13044,Item not as described,3045.08,1,1,1,1,1,11,0,1
+DSP-2517,ORD-13103,Transaction not recognised,1737.82,1,0,0,1,2,39,2,1
+DSP-2518,ORD-12844,Item not received,5610.12,1,1,0,1,1,0,1,1
+DSP-2519,ORD-13160,Defective item,1597.37,0,0,0,0,1,4,0,0
+DSP-2520,ORD-11182,Item not received,4662.05,1,1,0,1,1,21,0,1
+DSP-2521,ORD-10160,Item not received,4027.76,1,1,0,1,2,8,0,1
+DSP-2522,ORD-11673,Duplicate charge,9920.09,1,1,1,1,0,11,0,1
+DSP-2523,ORD-12355,Defective item,2977.2,1,1,0,0,0,9,1,0
+DSP-2524,ORD-13580,Item not received,2169.84,0,0,0,0,1,10,0,0
+DSP-2525,ORD-15828,Duplicate charge,2891.39,1,1,1,0,1,6,1,0
+DSP-2526,ORD-12565,Defective item,14202.62,1,1,1,1,2,10,1,1
+DSP-2527,ORD-10312,Duplicate charge,6451.2,1,1,0,0,0,10,2,0
+DSP-2528,ORD-10043,Duplicate charge,6617.42,1,0,0,1,3,7,0,1
+DSP-2529,ORD-14542,Transaction not recognised,8967.09,1,0,0,1,1,6,0,0
+DSP-2530,ORD-11309,Item not as described,5532.11,1,1,1,1,0,8,0,1
+DSP-2531,ORD-10391,Duplicate charge,15250.62,1,1,0,1,0,6,0,0
+DSP-2532,ORD-10968,Transaction not recognised,4983.32,0,0,0,0,2,38,0,0
+DSP-2533,ORD-14441,Defective item,8733.47,1,0,0,1,2,15,0,1
+DSP-2534,ORD-12518,Defective item,7010.88,0,0,1,0,1,3,0,1
+DSP-2535,ORD-12821,Item not received,6767.53,1,1,1,1,5,26,0,1
+DSP-2536,ORD-12618,Transaction not recognised,5338.9,1,1,0,0,0,1,0,1
+DSP-2537,ORD-12071,Transaction not recognised,6551.41,0,0,1,0,0,21,0,0
+DSP-2538,ORD-12830,Duplicate charge,5293.96,1,0,1,1,0,3,0,1
+DSP-2539,ORD-14346,Item not received,8555.84,1,1,0,1,1,16,0,1
+DSP-2540,ORD-10180,Transaction not recognised,2818.97,1,1,0,1,5,2,0,1
+DSP-2541,ORD-10554,Item not received,2268.77,1,1,1,1,1,7,0,0
+DSP-2542,ORD-13873,Transaction not recognised,5271.08,1,1,0,1,1,1,0,1
+DSP-2543,ORD-14783,Duplicate charge,3847.88,1,1,0,1,0,10,0,1
+DSP-2544,ORD-11235,Transaction not recognised,2759.23,1,1,0,1,2,11,0,1
+DSP-2545,ORD-11627,Transaction not recognised,8369.15,1,1,1,0,0,4,0,1
+DSP-2546,ORD-11008,Duplicate charge,6373.45,0,0,1,0,3,14,0,1
+DSP-2547,ORD-14384,Item not as described,3634.23,1,1,1,1,1,1,1,1
+DSP-2548,ORD-12436,Item not received,4870.34,1,0,1,1,1,5,0,1
+DSP-2549,ORD-10688,Item not as described,2925.99,0,0,1,0,2,8,0,0
+DSP-2550,ORD-14883,Transaction not recognised,5867.74,0,0,0,0,3,1,0,0
+DSP-2551,ORD-14781,Transaction not recognised,3127.32,1,1,0,1,2,1,0,1
+DSP-2552,ORD-11906,Transaction not recognised,1531.97,0,0,0,0,3,8,0,0
+DSP-2553,ORD-11964,Item not received,12938.89,1,1,1,1,1,11,0,1
+DSP-2554,ORD-11818,Item not received,2959.86,1,1,1,1,0,9,0,1
+DSP-2555,ORD-11189,Defective item,3089.12,1,1,1,1,2,0,1,1
+DSP-2556,ORD-10198,Transaction not recognised,5773.1,1,1,0,1,3,2,0,1
+DSP-2557,ORD-12483,Transaction not recognised,10161.78,1,0,0,0,1,2,2,0
+DSP-2558,ORD-12576,Duplicate charge,4995.54,1,1,1,1,1,0,0,1
+DSP-2559,ORD-11659,Duplicate charge,1874.01,0,0,0,0,1,20,0,0
+DSP-2560,ORD-14544,Duplicate charge,3082.16,1,1,0,1,2,41,0,1
+DSP-2561,ORD-10353,Defective item,2241.88,0,0,1,0,2,6,0,1
+DSP-2562,ORD-13802,Defective item,2874.38,1,1,0,1,1,4,2,1
+DSP-2563,ORD-11135,Duplicate charge,1956.89,1,1,1,1,3,55,2,0
+DSP-2564,ORD-13391,Item not received,4096.49,1,1,0,1,1,2,1,1
+DSP-2565,ORD-10557,Item not as described,2891.18,1,1,0,1,3,6,1,1
+DSP-2566,ORD-13268,Duplicate charge,1591.73,1,1,1,1,2,0,0,1
+DSP-2567,ORD-12552,Defective item,4290.43,1,1,0,1,1,0,0,1
+DSP-2568,ORD-13459,Item not as described,2499.75,1,1,1,1,1,1,1,0
+DSP-2569,ORD-11284,Defective item,8090.44,0,0,0,0,0,0,0,0
+DSP-2570,ORD-11777,Transaction not recognised,4533.27,1,1,0,0,1,21,1,1
+DSP-2571,ORD-14473,Item not received,9014.64,1,1,1,1,1,36,1,1
+DSP-2572,ORD-13735,Transaction not recognised,7301.3,0,0,1,0,1,10,0,0
+DSP-2573,ORD-12020,Defective item,3144.51,1,0,0,1,3,5,1,0
+DSP-2574,ORD-15197,Item not as described,18004.63,1,0,1,1,2,14,0,1
+DSP-2575,ORD-10242,Item not as described,8033.25,1,1,1,1,2,3,0,1
+DSP-2576,ORD-14963,Duplicate charge,10401.86,1,1,1,1,1,0,1,1
+DSP-2577,ORD-14552,Defective item,1908.11,1,1,1,1,1,12,0,1
+DSP-2578,ORD-15262,Item not received,745.37,0,0,1,0,3,2,0,1
+DSP-2579,ORD-14308,Transaction not recognised,14475.84,1,0,1,1,5,3,2,1
+DSP-2580,ORD-13986,Defective item,7841.14,1,1,0,1,2,7,1,0
+DSP-2581,ORD-13601,Defective item,6390.45,0,0,1,0,0,4,1,0
+DSP-2582,ORD-15477,Item not as described,18295.66,1,1,1,0,1,12,0,0
+DSP-2583,ORD-12064,Transaction not recognised,1854.77,1,1,1,1,1,28,0,0
+DSP-2584,ORD-10319,Item not as described,4559.77,1,1,0,1,0,4,0,1
+DSP-2585,ORD-10114,Transaction not recognised,3616.82,1,1,1,1,4,12,1,1
+DSP-2586,ORD-12720,Duplicate charge,1917.69,1,1,1,1,1,16,0,1
+DSP-2587,ORD-13979,Duplicate charge,5500.24,1,1,1,1,1,0,0,1
+DSP-2588,ORD-15439,Defective item,2177.39,1,0,1,1,2,2,1,0
+DSP-2589,ORD-11463,Transaction not recognised,4978.25,1,1,0,1,1,0,0,1
+DSP-2590,ORD-15045,Defective item,6000.23,1,0,1,0,2,4,1,0
+DSP-2591,ORD-11865,Transaction not recognised,4710.71,1,1,1,0,3,2,0,1
+DSP-2592,ORD-14305,Defective item,3782.01,1,1,0,1,1,0,0,1
+DSP-2593,ORD-14394,Item not as described,1193.29,0,0,0,0,0,7,1,0
+DSP-2594,ORD-14104,Defective item,10230.21,1,1,1,1,1,18,1,1
+DSP-2595,ORD-13288,Duplicate charge,2521.93,1,1,1,1,1,0,1,1
+DSP-2596,ORD-15339,Transaction not recognised,7823.23,1,1,1,0,4,18,0,1
+DSP-2597,ORD-15135,Item not received,4850.93,1,0,1,1,2,5,0,1
+DSP-2598,ORD-13379,Transaction not recognised,3730.85,1,1,1,1,4,10,0,1
+DSP-2599,ORD-13554,Transaction not recognised,10408.06,0,0,0,0,6,28,1,1
+DSP-2600,ORD-14893,Item not received,2157.06,1,1,1,1,0,10,0,1
+DSP-2601,ORD-12547,Item not received,17761.91,1,1,0,1,4,10,1,1
+DSP-2602,ORD-11067,Item not as described,1208.77,1,1,0,1,3,3,1,1
+DSP-2603,ORD-11280,Duplicate charge,9468.53,0,0,0,0,2,0,0,0
+DSP-2604,ORD-11069,Item not received,6683.07,0,0,1,0,0,1,0,0
+DSP-2605,ORD-11617,Transaction not recognised,4572.12,1,1,1,1,1,10,0,1
+DSP-2606,ORD-13275,Item not received,1149.78,1,0,1,1,2,21,0,1
+DSP-2607,ORD-15138,Defective item,3508.17,0,0,1,0,1,2,1,0
+DSP-2608,ORD-10763,Defective item,5302.39,1,1,0,1,2,0,0,1
+DSP-2609,ORD-13335,Item not as described,4206.62,1,1,0,1,2,11,1,0
+DSP-2610,ORD-12540,Transaction not recognised,3354.6,1,0,0,0,1,32,0,0
+DSP-2611,ORD-15618,Defective item,8324.01,1,1,1,1,2,35,0,1
+DSP-2612,ORD-12157,Transaction not recognised,8577.5,1,1,1,1,5,4,0,1
+DSP-2613,ORD-12886,Item not received,8437.02,1,1,1,1,2,5,0,1
+DSP-2614,ORD-12942,Item not as described,4429.83,1,0,0,1,1,8,0,0
+DSP-2615,ORD-10486,Defective item,10304.94,1,1,0,1,0,2,0,0
+DSP-2616,ORD-11340,Transaction not recognised,2269.45,0,0,0,0,2,1,1,0
+DSP-2617,ORD-11871,Defective item,1587.25,0,0,0,0,1,17,0,0
+DSP-2618,ORD-12242,Item not received,4077.08,0,0,1,0,3,3,0,0
+DSP-2619,ORD-14055,Item not as described,12587.06,1,1,0,0,3,5,1,1
+DSP-2620,ORD-11191,Duplicate charge,9144.31,1,1,0,1,5,2,0,1
+DSP-2621,ORD-14086,Defective item,11781.11,1,1,1,1,1,13,0,0
+DSP-2622,ORD-13870,Transaction not recognised,6146.84,0,0,1,0,1,6,0,0
+DSP-2623,ORD-13938,Duplicate charge,4386.63,1,1,0,1,1,2,2,0
+DSP-2624,ORD-11729,Item not as described,8282.86,0,0,0,0,2,41,0,0
+DSP-2625,ORD-10610,Transaction not recognised,2967.77,1,1,1,1,2,8,0,1
+DSP-2626,ORD-14160,Item not received,7077.37,1,1,1,1,0,0,1,1
+DSP-2627,ORD-14118,Item not as described,3414.04,1,1,1,1,1,11,1,1
+DSP-2628,ORD-11474,Item not as described,3732.73,1,1,0,1,0,1,1,1
+DSP-2629,ORD-14652,Transaction not recognised,8309.14,1,1,1,1,1,43,0,1
+DSP-2630,ORD-12873,Item not received,2884.11,1,0,1,1,1,0,0,1
+DSP-2631,ORD-12172,Duplicate charge,800.58,1,1,1,1,0,9,0,1
+DSP-2632,ORD-15343,Transaction not recognised,7490.55,1,0,0,1,3,1,0,1
+DSP-2633,ORD-12643,Item not as described,4300.22,1,1,1,1,2,4,1,1
+DSP-2634,ORD-13871,Duplicate charge,3765.18,1,1,0,1,2,6,0,1
+DSP-2635,ORD-14284,Item not as described,2677.3,0,0,0,0,2,7,1,1
+DSP-2636,ORD-10775,Item not as described,4604.3,1,1,1,1,5,0,0,1
+DSP-2637,ORD-11781,Defective item,5786.52,1,1,0,0,0,11,0,1
+DSP-2638,ORD-10205,Duplicate charge,6359.06,1,1,1,1,1,6,1,1
+DSP-2639,ORD-15478,Defective item,13578.54,1,1,1,1,2,8,1,1
+DSP-2640,ORD-11656,Item not as described,4432.53,1,1,0,1,0,4,0,0
+DSP-2641,ORD-10430,Item not as described,3956.74,1,1,1,1,1,0,1,1
+DSP-2642,ORD-15249,Transaction not recognised,5749.93,0,0,1,0,0,18,0,0
+DSP-2643,ORD-15339,Item not as described,5285.1,1,0,1,1,1,1,0,1
+DSP-2644,ORD-10891,Item not as described,1875.62,1,1,0,1,1,0,0,1
+DSP-2645,ORD-15518,Defective item,7015.33,1,1,1,1,1,20,1,1
+DSP-2646,ORD-15883,Item not as described,3428.87,0,0,0,0,0,4,0,0
+DSP-2647,ORD-13435,Defective item,9254.45,1,1,0,1,2,0,1,1
+DSP-2648,ORD-13656,Transaction not recognised,3575.58,1,1,1,1,3,7,0,1
+DSP-2649,ORD-12958,Defective item,2714.31,0,0,0,0,2,10,0,0
+DSP-2650,ORD-15305,Transaction not recognised,8029.14,0,0,1,0,0,8,0,1
+DSP-2651,ORD-14055,Duplicate charge,5945.71,1,1,1,1,1,5,1,1
+DSP-2652,ORD-13465,Transaction not recognised,1893.19,0,0,0,0,2,6,0,0
+DSP-2653,ORD-11167,Item not received,2881.72,0,0,1,0,0,0,1,0
+DSP-2654,ORD-11405,Item not received,5030.15,0,0,0,0,1,4,0,0
+DSP-2655,ORD-14274,Duplicate charge,7736.54,1,1,0,1,3,1,1,1
+DSP-2656,ORD-14200,Duplicate charge,14011.84,1,1,1,1,3,0,0,1
+DSP-2657,ORD-15030,Item not received,1358.16,0,0,0,0,4,4,0,1
+DSP-2658,ORD-11705,Item not received,3366.69,1,1,1,1,0,3,0,0
+DSP-2659,ORD-15600,Item not as described,3464.62,0,0,1,0,6,7,1,0
+DSP-2660,ORD-11534,Item not as described,5181.43,1,0,1,1,1,3,0,0
+DSP-2661,ORD-12850,Item not as described,4283.07,1,1,0,1,2,17,0,1
+DSP-2662,ORD-10215,Item not as described,19076.22,1,1,1,1,1,1,1,1
+DSP-2663,ORD-12056,Duplicate charge,4064.91,1,1,0,1,0,4,0,1
+DSP-2664,ORD-12213,Defective item,5577.03,1,1,1,1,0,4,0,1
+DSP-2665,ORD-15338,Transaction not recognised,15923.87,0,0,1,0,1,30,0,0
+DSP-2666,ORD-15870,Duplicate charge,4783.5,1,1,1,1,2,4,0,1
+DSP-2667,ORD-12906,Item not as described,2692.32,0,0,1,0,0,3,0,0
+DSP-2668,ORD-14324,Duplicate charge,5707.96,0,0,1,0,2,0,0,0
+DSP-2669,ORD-12863,Transaction not recognised,3308.97,1,1,1,1,1,2,0,1
+DSP-2670,ORD-13559,Item not received,3875.75,1,1,1,1,1,21,1,1
+DSP-2671,ORD-13057,Duplicate charge,8350.77,1,1,1,1,1,4,1,1
+DSP-2672,ORD-15622,Duplicate charge,3051.32,1,0,0,1,3,1,1,0
+DSP-2673,ORD-10447,Duplicate charge,4836.88,0,0,0,0,2,5,0,0
+DSP-2674,ORD-15357,Transaction not recognised,4791.32,1,0,0,1,1,3,0,1
+DSP-2675,ORD-13234,Transaction not recognised,1475.2,1,1,1,1,1,27,0,1
+DSP-2676,ORD-14816,Transaction not recognised,6908.78,0,0,0,0,4,14,0,0
+DSP-2677,ORD-12657,Duplicate charge,7297.54,1,1,0,1,2,20,0,1
+DSP-2678,ORD-12432,Defective item,1283.24,1,1,0,1,2,4,0,1
+DSP-2679,ORD-13975,Duplicate charge,11836.2,0,0,1,0,0,7,1,1
+DSP-2680,ORD-12739,Item not received,4757.31,0,0,0,0,2,9,0,0
+DSP-2681,ORD-10103,Item not as described,1191.85,0,0,0,0,0,0,1,0
+DSP-2682,ORD-14020,Transaction not recognised,5607.25,1,0,1,1,2,2,0,1
+DSP-2683,ORD-14714,Defective item,4992.32,1,0,1,1,0,0,1,1
+DSP-2684,ORD-13261,Duplicate charge,1352.35,1,0,1,1,0,15,1,1
+DSP-2685,ORD-14720,Item not received,2246.47,1,1,1,1,1,40,1,1
+DSP-2686,ORD-13844,Item not received,2730.85,1,1,0,1,2,7,0,1
+DSP-2687,ORD-13630,Duplicate charge,8809.78,1,1,1,1,0,38,1,1
+DSP-2688,ORD-13442,Item not received,5635.32,1,1,0,1,1,4,1,1
+DSP-2689,ORD-14188,Item not received,4893.01,0,0,1,0,1,0,1,0
+DSP-2690,ORD-13705,Item not as described,10841.86,1,1,1,1,2,1,0,1
+DSP-2691,ORD-15093,Defective item,6340.65,1,0,1,1,1,10,0,1
+DSP-2692,ORD-13529,Duplicate charge,2890.75,0,0,0,0,1,6,1,0
+DSP-2693,ORD-10292,Item not as described,1080.21,1,1,1,0,1,2,0,1
+DSP-2694,ORD-12907,Defective item,6602.59,1,1,1,1,0,5,0,1
+DSP-2695,ORD-13705,Item not received,6471.58,1,0,0,1,1,5,1,1
+DSP-2696,ORD-13128,Item not as described,4934.83,0,0,1,0,0,0,1,0
+DSP-2697,ORD-10145,Duplicate charge,5569.47,0,0,1,0,1,9,0,1
+DSP-2698,ORD-14989,Defective item,2901.96,1,1,0,1,4,2,1,1
+DSP-2699,ORD-15489,Item not received,11844.44,1,1,1,1,2,41,1,1
+DSP-2700,ORD-15232,Item not as described,8571.06,1,1,0,1,1,5,1,1
+DSP-2701,ORD-15007,Item not as described,2375.23,1,1,0,1,0,12,0,1
+DSP-2702,ORD-10191,Item not received,11124.0,1,1,1,1,0,23,1,1
+DSP-2703,ORD-14902,Item not received,6318.31,1,1,1,1,2,0,0,1
+DSP-2704,ORD-11824,Transaction not recognised,2283.65,1,1,0,1,3,17,0,1
+DSP-2705,ORD-15761,Defective item,3420.15,1,1,1,1,1,1,2,0
+DSP-2706,ORD-10172,Item not received,8875.13,1,1,1,1,3,0,2,1
+DSP-2707,ORD-14281,Defective item,4327.78,1,0,0,1,2,6,0,1
+DSP-2708,ORD-10661,Item not received,2881.55,0,0,0,0,1,6,1,0
+DSP-2709,ORD-10786,Duplicate charge,6466.08,0,0,1,0,0,21,0,0
+DSP-2710,ORD-10016,Item not received,7790.9,1,1,1,1,3,7,0,1
+DSP-2711,ORD-10244,Duplicate charge,1904.2,0,0,1,0,0,4,1,0
+DSP-2712,ORD-11258,Transaction not recognised,1335.78,0,0,0,0,0,0,0,0
+DSP-2713,ORD-13929,Transaction not recognised,6765.18,0,0,1,0,2,2,0,0
+DSP-2714,ORD-10055,Duplicate charge,3054.63,1,1,0,1,3,1,0,1
+DSP-2715,ORD-13388,Item not received,3211.18,1,1,1,1,0,4,0,1
+DSP-2716,ORD-12540,Item not received,11014.76,1,1,0,1,0,22,0,1
+DSP-2717,ORD-12215,Defective item,8141.52,1,0,1,1,3,5,0,1
+DSP-2718,ORD-11735,Defective item,2672.82,0,0,1,0,0,2,0,0
+DSP-2719,ORD-10677,Item not as described,3748.18,0,0,1,0,1,45,0,0
+DSP-2720,ORD-11096,Item not received,4161.33,1,0,1,1,0,6,0,0
+DSP-2721,ORD-14728,Item not as described,3823.15,1,1,0,1,2,8,0,1
+DSP-2722,ORD-11923,Transaction not recognised,10355.35,0,0,1,0,1,14,0,0
+DSP-2723,ORD-14409,Defective item,1654.31,1,1,1,1,3,8,0,1
+DSP-2724,ORD-12776,Item not as described,2602.03,1,1,1,1,3,2,1,1
+DSP-2725,ORD-10840,Duplicate charge,2380.74,1,1,1,0,0,4,0,1
+DSP-2726,ORD-11286,Item not as described,7632.62,1,1,1,1,0,6,0,0
+DSP-2727,ORD-13791,Item not as described,11659.16,1,1,0,1,0,48,0,1
+DSP-2728,ORD-15876,Transaction not recognised,6109.33,0,0,0,0,1,18,1,0
+DSP-2729,ORD-12862,Item not as described,14579.3,1,1,0,1,1,5,0,1
+DSP-2730,ORD-13581,Duplicate charge,4828.36,0,0,0,0,1,5,1,0
+DSP-2731,ORD-15811,Item not as described,4725.05,1,1,0,1,0,5,1,1
+DSP-2732,ORD-14286,Transaction not recognised,4571.64,0,0,1,0,1,14,0,1
+DSP-2733,ORD-15022,Item not received,9959.22,0,0,1,0,1,0,0,0
+DSP-2734,ORD-12845,Transaction not recognised,4106.6,1,0,1,1,3,6,1,1
+DSP-2735,ORD-13504,Defective item,1922.0,1,1,1,1,2,6,0,1
+DSP-2736,ORD-10159,Item not as described,17071.56,1,1,1,1,2,24,0,1
+DSP-2737,ORD-11661,Defective item,13607.98,1,1,1,1,2,4,0,1
+DSP-2738,ORD-10164,Item not received,19053.27,0,0,0,0,0,12,0,0
+DSP-2739,ORD-11761,Item not received,8712.25,1,1,1,0,0,2,0,1
+DSP-2740,ORD-13635,Transaction not recognised,11021.9,0,0,0,0,1,1,0,0
+DSP-2741,ORD-14463,Duplicate charge,5160.68,0,0,0,0,4,0,0,0
+DSP-2742,ORD-14834,Defective item,3818.86,1,1,0,1,1,0,1,0
+DSP-2743,ORD-12726,Defective item,1315.86,1,1,1,1,2,8,0,0
+DSP-2744,ORD-11440,Item not as described,6512.25,1,1,1,1,2,9,0,1
+DSP-2745,ORD-12704,Item not as described,4924.61,1,1,0,1,0,0,0,1
+DSP-2746,ORD-13186,Duplicate charge,4535.66,1,1,1,1,2,6,0,1
+DSP-2747,ORD-12684,Transaction not recognised,3511.3,0,0,1,0,1,25,0,1
+DSP-2748,ORD-12298,Duplicate charge,2816.84,1,1,1,0,0,2,0,1
+DSP-2749,ORD-11077,Duplicate charge,1145.69,0,0,0,0,0,24,0,0
+DSP-2750,ORD-14579,Defective item,4203.99,1,1,1,1,2,41,1,1
+DSP-2751,ORD-14905,Duplicate charge,2665.19,1,1,1,1,2,3,0,1
+DSP-2752,ORD-15901,Transaction not recognised,1365.45,1,1,1,1,1,3,0,1
+DSP-2753,ORD-13094,Item not as described,3422.26,1,1,1,1,1,0,0,0
+DSP-2754,ORD-10866,Item not received,14885.32,1,1,1,1,1,5,1,1
+DSP-2755,ORD-15335,Item not received,2842.68,1,1,0,1,3,5,0,1
+DSP-2756,ORD-14761,Duplicate charge,3521.17,0,0,1,0,2,6,0,1
+DSP-2757,ORD-15033,Duplicate charge,11163.67,1,1,1,1,0,5,0,1
+DSP-2758,ORD-14251,Defective item,2864.18,1,0,0,0,1,11,0,0
+DSP-2759,ORD-10029,Duplicate charge,3116.42,0,0,1,0,2,1,0,1
+DSP-2760,ORD-10210,Duplicate charge,4434.67,1,1,1,0,1,11,0,1
+DSP-2761,ORD-15326,Item not as described,2295.27,0,0,1,0,1,19,0,1
+DSP-2762,ORD-12228,Transaction not recognised,1138.96,0,0,0,0,3,6,1,0
+DSP-2763,ORD-11625,Item not as described,3699.57,0,0,1,0,1,4,1,0
+DSP-2764,ORD-11740,Item not as described,5418.3,1,1,0,0,0,19,0,0
+DSP-2765,ORD-15858,Defective item,9654.98,0,0,1,0,1,1,0,0
+DSP-2766,ORD-12433,Defective item,1402.33,1,0,1,1,3,13,0,1
+DSP-2767,ORD-13078,Item not as described,2864.42,1,1,1,0,1,1,0,1
+DSP-2768,ORD-10269,Defective item,12188.16,1,1,1,1,1,11,2,1
+DSP-2769,ORD-13790,Item not received,1867.52,0,0,0,0,0,53,1,0
+DSP-2770,ORD-13165,Item not as described,5690.15,1,1,0,1,1,5,1,1
+DSP-2771,ORD-11740,Transaction not recognised,2994.57,1,1,1,1,3,11,0,1
+DSP-2772,ORD-11455,Item not received,2673.53,1,1,1,1,1,1,0,1
+DSP-2773,ORD-14460,Item not as described,11761.01,0,0,1,0,1,4,0,0
+DSP-2774,ORD-11791,Defective item,2650.28,1,1,1,1,1,29,0,1
+DSP-2775,ORD-13715,Item not received,3605.92,0,0,1,0,0,2,0,1
+DSP-2776,ORD-10843,Item not as described,3982.85,0,0,1,0,4,24,0,0
+DSP-2777,ORD-10568,Item not received,9007.85,1,1,0,1,2,6,1,1
+DSP-2778,ORD-15220,Duplicate charge,4572.2,1,0,0,1,0,4,0,1
+DSP-2779,ORD-10262,Item not as described,10684.67,1,1,1,1,3,0,0,1
+DSP-2780,ORD-14888,Item not as described,3738.14,1,1,0,1,0,6,0,1
+DSP-2781,ORD-15771,Transaction not recognised,5913.29,1,0,0,1,2,31,0,1
+DSP-2782,ORD-11170,Item not as described,2643.92,0,0,1,0,1,13,0,0
+DSP-2783,ORD-14517,Duplicate charge,6360.63,1,1,1,1,2,21,0,1
+DSP-2784,ORD-11873,Item not received,7036.16,1,0,1,1,3,3,1,0
+DSP-2785,ORD-13295,Item not as described,3565.76,0,0,1,0,0,2,0,1
+DSP-2786,ORD-12229,Item not as described,3321.81,1,1,1,1,0,16,0,1
+DSP-2787,ORD-12975,Duplicate charge,7361.13,0,0,1,0,0,6,0,1
+DSP-2788,ORD-11813,Item not received,2921.73,0,0,0,0,1,0,3,1
+DSP-2789,ORD-11227,Item not as described,10087.61,1,1,1,1,1,9,0,1
+DSP-2790,ORD-11650,Transaction not recognised,1269.98,0,0,1,0,2,7,0,1
+DSP-2791,ORD-11821,Transaction not recognised,2075.59,1,1,1,1,0,1,0,1
+DSP-2792,ORD-11812,Duplicate charge,7056.79,1,0,0,1,1,15,0,1
+DSP-2793,ORD-14527,Defective item,5512.14,1,1,1,1,1,2,2,1
+DSP-2794,ORD-12540,Transaction not recognised,5665.47,1,1,1,1,4,3,0,1
+DSP-2795,ORD-10145,Duplicate charge,1072.56,1,1,1,1,1,4,0,1
+DSP-2796,ORD-14185,Item not as described,5255.44,1,1,0,1,1,7,1,1
+DSP-2797,ORD-15288,Transaction not recognised,2835.34,1,1,0,1,0,30,1,1
+DSP-2798,ORD-14915,Defective item,1957.93,1,1,1,1,0,19,0,1
+DSP-2799,ORD-13986,Defective item,2326.34,1,1,1,1,2,1,1,1
+DSP-2800,ORD-11323,Transaction not recognised,3294.26,1,0,1,0,2,12,1,0
+DSP-2801,ORD-10171,Duplicate charge,9365.03,0,0,1,0,1,30,1,0
+DSP-2802,ORD-14220,Transaction not recognised,2707.29,1,0,0,1,0,16,0,0
+DSP-2803,ORD-12832,Transaction not recognised,7115.75,0,0,0,0,2,16,1,0
+DSP-2804,ORD-11348,Duplicate charge,8524.16,1,1,0,1,1,14,0,1
+DSP-2805,ORD-10658,Item not received,5955.88,1,1,0,0,0,10,1,0
+DSP-2806,ORD-11863,Item not received,4784.86,0,0,1,0,1,2,1,0
+DSP-2807,ORD-15822,Transaction not recognised,1319.85,1,1,1,1,4,2,0,1
+DSP-2808,ORD-10527,Duplicate charge,2781.05,1,0,0,0,2,1,0,1
+DSP-2809,ORD-11189,Transaction not recognised,11377.14,1,1,1,1,0,33,0,1
+DSP-2810,ORD-12867,Defective item,4495.09,0,0,0,0,2,0,1,0
+DSP-2811,ORD-13678,Transaction not recognised,6559.96,1,0,1,0,4,3,0,1
+DSP-2812,ORD-10203,Item not as described,10667.19,1,1,0,1,0,4,0,1
+DSP-2813,ORD-15814,Defective item,4929.17,1,1,1,1,1,0,0,1
+DSP-2814,ORD-12421,Duplicate charge,7164.29,1,1,1,1,1,1,0,1
+DSP-2815,ORD-12646,Item not received,6019.58,1,1,1,1,1,21,0,1
+DSP-2816,ORD-11529,Item not as described,5150.73,1,1,1,1,0,25,0,1
+DSP-2817,ORD-15562,Defective item,6756.84,1,1,1,1,2,0,1,1
+DSP-2818,ORD-14500,Item not received,1818.15,1,1,0,1,1,16,1,1
+DSP-2819,ORD-15005,Transaction not recognised,4003.13,1,1,1,1,1,0,1,1
+DSP-2820,ORD-14449,Duplicate charge,4233.42,1,0,1,0,1,8,2,0
+DSP-2821,ORD-12899,Item not as described,3458.74,0,0,1,0,1,5,1,0
+DSP-2822,ORD-13135,Duplicate charge,3404.14,0,0,1,0,2,18,0,1
+DSP-2823,ORD-13797,Transaction not recognised,4253.47,1,1,0,0,2,32,0,1
+DSP-2824,ORD-10391,Defective item,6500.26,0,0,1,0,2,5,1,1
+DSP-2825,ORD-12504,Defective item,765.06,1,1,0,1,2,5,0,0
+DSP-2826,ORD-14626,Item not as described,2417.95,0,0,0,0,2,12,1,0
+DSP-2827,ORD-13538,Item not as described,1719.31,1,0,0,1,0,21,0,1
+DSP-2828,ORD-11953,Item not received,2967.94,1,1,0,1,0,9,0,1
+DSP-2829,ORD-15509,Defective item,5840.05,1,1,0,1,0,0,0,1
+DSP-2830,ORD-14396,Defective item,3737.66,0,0,1,0,1,1,0,0
+DSP-2831,ORD-10289,Item not received,10318.08,0,0,1,0,1,12,0,0
+DSP-2832,ORD-12775,Transaction not recognised,4868.91,1,0,0,1,0,16,0,0
+DSP-2833,ORD-11843,Item not as described,4882.11,1,1,1,1,3,0,0,1
+DSP-2834,ORD-13889,Item not received,6963.83,1,0,1,1,0,11,1,0
+DSP-2835,ORD-10533,Duplicate charge,6247.2,0,0,1,0,1,13,1,0
+DSP-2836,ORD-10104,Defective item,4207.34,0,0,1,0,2,2,1,1
+DSP-2837,ORD-12899,Duplicate charge,2193.17,0,0,1,0,0,1,0,1
+DSP-2838,ORD-13575,Duplicate charge,2727.1,1,0,1,0,0,5,3,0
+DSP-2839,ORD-12025,Defective item,5916.08,0,0,0,0,0,17,0,0
+DSP-2840,ORD-15667,Defective item,1977.35,1,1,1,1,3,11,0,1
+DSP-2841,ORD-14983,Transaction not recognised,4421.11,0,0,1,0,2,1,0,1
+DSP-2842,ORD-11856,Transaction not recognised,7153.73,1,1,1,1,3,7,0,1
+DSP-2843,ORD-10351,Item not as described,6328.21,1,1,0,0,2,3,0,1
+DSP-2844,ORD-13351,Item not as described,3976.59,1,1,1,1,0,10,1,1
+DSP-2845,ORD-12175,Duplicate charge,2213.34,0,0,0,0,1,6,0,0
+DSP-2846,ORD-11889,Item not received,4496.66,1,1,1,1,0,1,0,1
+DSP-2847,ORD-15694,Item not as described,14381.02,0,0,0,0,1,11,1,0
+DSP-2848,ORD-15138,Defective item,8087.82,1,1,1,0,2,22,0,1
+DSP-2849,ORD-11947,Item not received,3000.12,1,1,1,1,2,5,1,1
+DSP-2850,ORD-11761,Duplicate charge,9919.07,0,0,1,0,0,2,0,0
+DSP-2851,ORD-11579,Duplicate charge,16654.79,1,1,1,1,1,4,0,0
+DSP-2852,ORD-14600,Transaction not recognised,1553.62,1,1,0,1,1,4,0,1
+DSP-2853,ORD-11397,Item not as described,3768.91,1,1,0,1,2,14,1,1
+DSP-2854,ORD-12816,Item not received,8075.96,1,1,1,1,0,7,1,1
+DSP-2855,ORD-12501,Transaction not recognised,14525.64,1,0,1,1,2,1,1,0
+DSP-2856,ORD-10800,Duplicate charge,5363.0,0,0,0,0,5,4,0,1
+DSP-2857,ORD-15948,Duplicate charge,17734.24,1,1,1,1,1,2,1,1
+DSP-2858,ORD-11592,Item not received,10748.01,1,0,1,1,2,1,1,1
+DSP-2859,ORD-10852,Item not received,3678.97,1,1,1,1,0,10,1,0
+DSP-2860,ORD-12167,Duplicate charge,5633.47,1,1,1,0,4,5,1,1
+DSP-2861,ORD-13294,Item not received,10267.17,1,1,0,1,2,17,0,1
+DSP-2862,ORD-13092,Item not as described,10426.61,1,1,1,1,1,0,0,1
+DSP-2863,ORD-13554,Item not received,5977.94,0,0,0,0,1,0,1,0
+DSP-2864,ORD-11095,Item not as described,4046.04,1,1,0,1,2,5,1,1
+DSP-2865,ORD-15324,Item not as described,10420.01,1,1,0,1,3,15,1,1
+DSP-2866,ORD-10917,Item not as described,2757.39,1,0,1,1,4,8,0,1
+DSP-2867,ORD-14594,Item not received,3385.01,1,1,1,1,2,1,1,1
+DSP-2868,ORD-11077,Duplicate charge,5928.66,1,1,0,0,1,12,0,1
+DSP-2869,ORD-12829,Item not as described,4817.47,1,0,0,1,4,14,1,1
+DSP-2870,ORD-11432,Item not as described,11749.8,1,1,0,1,0,6,0,1
+DSP-2871,ORD-12546,Item not received,2570.97,1,1,1,1,2,25,1,1
+DSP-2872,ORD-13306,Item not received,1542.92,0,0,1,0,1,7,0,0
+DSP-2873,ORD-15660,Item not received,5965.39,1,1,1,1,0,16,1,1
+DSP-2874,ORD-13419,Transaction not recognised,6117.1,1,1,1,1,0,2,0,1
+DSP-2875,ORD-11813,Duplicate charge,1790.4,1,1,1,1,1,25,0,1
+DSP-2876,ORD-10474,Defective item,14563.31,1,1,0,1,0,4,1,1
+DSP-2877,ORD-13670,Defective item,3386.94,0,0,0,0,0,0,2,0
+DSP-2878,ORD-13454,Defective item,5297.31,1,1,1,1,2,1,0,1
+DSP-2879,ORD-11371,Defective item,4929.28,1,1,0,1,0,2,0,1
+DSP-2880,ORD-10700,Transaction not recognised,4776.64,0,0,1,0,0,0,2,0
+DSP-2881,ORD-10425,Transaction not recognised,2917.54,1,0,0,1,2,4,0,1
+DSP-2882,ORD-10693,Duplicate charge,4938.51,1,1,0,1,0,7,0,1
+DSP-2883,ORD-12415,Transaction not recognised,4493.44,1,1,1,1,1,1,0,1
+DSP-2884,ORD-13439,Duplicate charge,10964.52,1,0,0,1,0,24,0,0
+DSP-2885,ORD-13675,Item not as described,2593.84,1,1,1,1,3,8,1,1
+DSP-2886,ORD-11064,Defective item,5583.55,1,1,0,1,5,14,0,1
+DSP-2887,ORD-15326,Duplicate charge,2450.1,1,1,0,0,0,3,0,1
+DSP-2888,ORD-13495,Transaction not recognised,10498.29,1,1,1,1,1,27,0,1
+DSP-2889,ORD-14863,Transaction not recognised,20497.47,0,0,1,0,0,20,0,0
+DSP-2890,ORD-15533,Defective item,3369.49,1,1,0,1,1,4,2,1
+DSP-2891,ORD-14154,Item not as described,2724.45,1,0,1,1,0,4,0,0
+DSP-2892,ORD-12967,Transaction not recognised,43518.88,1,1,1,1,1,8,0,1
+DSP-2893,ORD-14388,Defective item,9102.55,1,1,0,1,2,1,2,1
+DSP-2894,ORD-14434,Defective item,4761.31,0,0,1,0,0,1,2,0
+DSP-2895,ORD-13091,Defective item,9765.15,0,0,1,0,1,2,0,0
+DSP-2896,ORD-13194,Item not received,9419.74,1,1,1,1,0,2,0,1
+DSP-2897,ORD-12726,Duplicate charge,2397.53,1,1,0,1,2,3,0,1
+DSP-2898,ORD-11918,Defective item,4169.11,1,0,0,1,0,20,1,0
+DSP-2899,ORD-12390,Duplicate charge,5163.76,0,0,1,0,0,2,0,1
+DSP-2900,ORD-11752,Item not received,2152.78,1,1,0,1,3,24,0,1
+DSP-2901,ORD-10078,Duplicate charge,8742.94,1,1,1,1,2,10,1,1
+DSP-2902,ORD-10124,Defective item,8371.34,0,0,1,0,1,25,1,0
+DSP-2903,ORD-10025,Defective item,5001.45,1,0,0,1,0,10,0,0
+DSP-2904,ORD-11692,Duplicate charge,6834.57,0,0,0,0,1,23,0,1
+DSP-2905,ORD-14817,Item not received,2219.56,1,1,1,1,1,14,0,1
+DSP-2906,ORD-12985,Transaction not recognised,2090.71,1,0,1,0,2,0,0,1
+DSP-2907,ORD-10088,Transaction not recognised,7598.45,1,1,1,1,1,3,1,1
+DSP-2908,ORD-12763,Duplicate charge,3490.54,1,1,0,1,2,5,0,1
+DSP-2909,ORD-10416,Transaction not recognised,3290.08,1,1,0,0,2,6,2,1
+DSP-2910,ORD-13342,Defective item,17178.19,1,1,0,0,1,2,0,0
+DSP-2911,ORD-15676,Item not received,15914.56,1,1,1,1,1,2,0,1
+DSP-2912,ORD-14180,Item not as described,2507.73,1,1,1,1,0,0,0,1
+DSP-2913,ORD-15077,Item not received,2631.09,1,1,0,1,2,6,0,1
+DSP-2914,ORD-13149,Duplicate charge,4329.14,1,1,0,1,0,7,0,1
+DSP-2915,ORD-14299,Defective item,7404.13,1,1,1,1,2,8,0,1
+DSP-2916,ORD-13278,Defective item,8412.1,1,1,0,1,2,28,1,1
+DSP-2917,ORD-15946,Duplicate charge,4050.36,0,0,1,0,2,4,0,0
+DSP-2918,ORD-15238,Item not received,3369.59,1,1,1,1,2,37,0,1
+DSP-2919,ORD-10862,Item not received,5365.8,1,0,0,1,0,8,1,1
+DSP-2920,ORD-11975,Item not as described,3459.71,0,0,1,0,0,17,0,0
+DSP-2921,ORD-10180,Duplicate charge,3235.29,1,0,1,1,0,9,2,0
+DSP-2922,ORD-10694,Defective item,1426.97,1,1,1,0,1,1,1,1
+DSP-2923,ORD-14887,Item not as described,1934.48,1,0,1,1,1,10,0,1
+DSP-2924,ORD-13173,Item not received,7401.79,0,0,1,0,2,20,0,1
+DSP-2925,ORD-12854,Defective item,8745.5,1,0,1,1,0,7,0,0
+DSP-2926,ORD-10603,Duplicate charge,13999.16,0,0,0,0,1,4,0,0
+DSP-2927,ORD-13958,Transaction not recognised,2894.59,1,1,1,1,0,10,0,1
+DSP-2928,ORD-15377,Duplicate charge,2204.15,0,0,0,0,1,0,1,0
+DSP-2929,ORD-14927,Item not as described,5132.53,0,0,0,0,0,2,1,0
+DSP-2930,ORD-13699,Duplicate charge,8980.52,1,1,1,1,1,5,2,1
+DSP-2931,ORD-14954,Defective item,5528.01,0,0,0,0,0,3,0,1
+DSP-2932,ORD-15634,Transaction not recognised,3338.57,1,1,0,1,3,3,0,1
+DSP-2933,ORD-14328,Transaction not recognised,3882.64,0,0,1,0,3,10,1,0
+DSP-2934,ORD-15530,Item not as described,1278.71,1,1,1,1,3,7,0,1
+DSP-2935,ORD-14776,Duplicate charge,10430.71,1,1,1,1,1,16,0,1
+DSP-2936,ORD-10644,Duplicate charge,8961.11,1,1,0,1,2,16,2,1
+DSP-2937,ORD-15105,Transaction not recognised,3982.34,1,1,1,1,1,2,0,1
+DSP-2938,ORD-13752,Transaction not recognised,1738.23,1,1,0,1,1,12,2,1
+DSP-2939,ORD-13374,Item not received,3687.19,1,1,1,1,1,3,0,1
+DSP-2940,ORD-12271,Item not received,4404.23,1,1,1,1,3,35,1,1
+DSP-2941,ORD-12068,Item not received,4491.59,1,0,0,1,0,29,0,1
+DSP-2942,ORD-14578,Duplicate charge,6139.1,0,0,1,0,2,6,0,1
+DSP-2943,ORD-10152,Item not received,2860.9,1,1,0,1,3,4,2,1
+DSP-2944,ORD-13847,Defective item,4235.99,1,1,1,1,1,12,0,1
+DSP-2945,ORD-14920,Transaction not recognised,3831.61,1,1,0,1,0,3,1,0
+DSP-2946,ORD-15013,Item not as described,8279.22,0,0,1,0,1,5,0,0
+DSP-2947,ORD-13925,Duplicate charge,7126.74,1,1,0,1,1,17,1,1
+DSP-2948,ORD-14321,Duplicate charge,2563.45,1,1,1,1,3,2,0,1
+DSP-2949,ORD-14375,Duplicate charge,4303.8,1,0,0,1,1,14,0,1
+DSP-2950,ORD-15610,Item not received,7885.38,1,0,1,1,0,13,1,1
+DSP-2951,ORD-12267,Defective item,4208.24,1,1,0,1,0,5,0,1
+DSP-2952,ORD-12035,Defective item,1996.7,1,1,1,1,1,1,0,1
+DSP-2953,ORD-11080,Transaction not recognised,4629.87,0,0,0,0,2,0,0,0
+DSP-2954,ORD-10624,Item not received,13413.44,1,1,1,1,1,16,2,1
+DSP-2955,ORD-14158,Item not as described,3281.82,0,0,0,0,1,3,1,0
+DSP-2956,ORD-12911,Item not as described,3024.62,1,0,0,1,0,2,0,0
+DSP-2957,ORD-12907,Item not as described,4832.61,0,0,1,0,2,8,1,1
+DSP-2958,ORD-11387,Duplicate charge,3479.52,1,1,1,1,0,1,0,1
+DSP-2959,ORD-12231,Item not as described,6002.62,1,1,1,1,0,2,0,1
+DSP-2960,ORD-15648,Item not received,4238.35,0,0,0,0,2,1,0,1
+DSP-2961,ORD-15338,Transaction not recognised,5579.21,1,1,1,1,1,2,1,1
+DSP-2962,ORD-11616,Item not as described,6846.21,1,0,0,1,4,7,0,0
+DSP-2963,ORD-11267,Item not as described,6566.15,1,0,1,1,2,8,1,1
+DSP-2964,ORD-10687,Item not received,9107.08,1,1,0,1,2,7,1,0
+DSP-2965,ORD-14712,Duplicate charge,4862.68,0,0,0,0,1,12,0,0
+DSP-2966,ORD-10516,Transaction not recognised,5536.3,1,1,1,1,0,0,0,1
+DSP-2967,ORD-13019,Duplicate charge,7582.14,0,0,0,0,5,2,1,0
+DSP-2968,ORD-12305,Item not as described,3185.89,1,1,1,1,1,40,1,0
+DSP-2969,ORD-10504,Duplicate charge,5223.75,0,0,1,0,2,3,0,1
+DSP-2970,ORD-13369,Item not as described,3717.81,0,0,1,0,1,4,1,0
+DSP-2971,ORD-14202,Duplicate charge,6465.53,1,1,1,1,3,3,1,1
+DSP-2972,ORD-11721,Defective item,2389.83,1,0,0,1,1,13,1,0
+DSP-2973,ORD-12147,Transaction not recognised,7871.2,0,0,1,0,2,11,0,0
+DSP-2974,ORD-15475,Item not as described,7378.88,1,1,0,1,2,8,0,0
+DSP-2975,ORD-14187,Duplicate charge,7511.58,0,0,0,0,1,38,0,0
+DSP-2976,ORD-14151,Item not received,17058.95,0,0,1,0,1,6,0,0
+DSP-2977,ORD-10597,Transaction not recognised,4706.54,0,0,1,0,0,3,2,0
+DSP-2978,ORD-15510,Item not as described,18055.76,0,0,1,0,2,20,0,1
+DSP-2979,ORD-14388,Transaction not recognised,6531.81,1,1,0,1,2,16,0,1
+DSP-2980,ORD-13421,Item not as described,4082.75,1,1,1,0,3,14,0,1
+DSP-2981,ORD-10890,Transaction not recognised,3666.18,1,1,0,1,0,16,0,1
+DSP-2982,ORD-13601,Item not received,4323.78,1,1,1,1,2,14,1,1
+DSP-2983,ORD-12534,Item not as described,9164.47,1,1,1,1,0,16,0,1
+DSP-2984,ORD-11046,Item not as described,7809.1,0,0,1,0,0,4,0,1
+DSP-2985,ORD-15991,Defective item,3479.52,1,1,0,1,1,0,0,0
+DSP-2986,ORD-11990,Item not as described,2049.03,1,1,0,0,1,1,0,1
+DSP-2987,ORD-10220,Item not received,6424.84,0,0,1,0,1,5,1,1
+DSP-2988,ORD-15101,Item not received,13844.22,1,1,0,1,1,16,1,0
+DSP-2989,ORD-15581,Item not as described,16038.84,0,0,1,0,2,13,0,0
+DSP-2990,ORD-15937,Transaction not recognised,4604.39,0,0,1,0,2,9,1,1
+DSP-2991,ORD-14078,Duplicate charge,8787.62,0,0,0,0,1,12,0,1
+DSP-2992,ORD-11879,Transaction not recognised,9717.92,1,1,0,1,1,30,1,1
+DSP-2993,ORD-12876,Defective item,5404.28,1,1,1,1,1,34,0,1
+DSP-2994,ORD-13644,Item not received,8136.95,0,0,1,0,1,5,0,1
+DSP-2995,ORD-15561,Defective item,5234.62,1,0,0,1,2,13,0,0
+DSP-2996,ORD-14246,Defective item,7909.3,1,1,0,1,3,24,0,1
+DSP-2997,ORD-15170,Item not as described,8099.44,1,0,1,1,2,7,0,0
+DSP-2998,ORD-15202,Defective item,7549.6,0,0,0,0,1,1,0,0
+DSP-2999,ORD-13436,Item not received,22094.69,0,0,0,0,2,1,1,0
+DSP-3000,ORD-11282,Item not as described,3888.41,1,1,1,1,1,5,1,1
+DSP-3001,ORD-12688,Duplicate charge,4585.11,1,1,0,1,1,13,0,1
+DSP-3002,ORD-11082,Item not received,1656.02,0,0,1,0,1,17,0,1
+DSP-3003,ORD-14795,Item not received,9550.34,1,0,0,1,3,1,1,1
+DSP-3004,ORD-10170,Item not received,1700.09,0,0,0,0,1,3,1,0
+DSP-3005,ORD-14054,Duplicate charge,3782.66,0,0,0,0,1,36,1,0
+DSP-3006,ORD-12202,Item not as described,1888.95,1,1,1,1,1,1,0,1
+DSP-3007,ORD-15347,Item not received,9051.59,1,1,1,1,0,16,0,0
+DSP-3008,ORD-10474,Defective item,4717.18,0,0,1,0,0,6,0,1
+DSP-3009,ORD-15579,Item not as described,5090.14,0,0,1,0,1,3,1,1
+DSP-3010,ORD-11026,Item not received,4996.43,0,0,0,0,0,25,2,0
+DSP-3011,ORD-13960,Duplicate charge,1670.78,1,1,0,1,0,6,0,1
+DSP-3012,ORD-12839,Item not received,2225.27,0,0,1,0,1,1,0,0
+DSP-3013,ORD-12031,Item not as described,4593.43,1,1,1,1,2,28,0,1
+DSP-3014,ORD-11579,Item not received,1732.46,0,0,0,0,2,3,0,0
+DSP-3015,ORD-11462,Item not received,4419.34,1,1,1,1,1,46,1,1
+DSP-3016,ORD-12418,Item not received,9653.79,1,0,0,1,1,19,0,0
+DSP-3017,ORD-15699,Item not received,1347.58,0,0,1,0,1,8,1,0
+DSP-3018,ORD-15434,Transaction not recognised,2970.07,1,1,1,1,0,24,1,1
+DSP-3019,ORD-12065,Item not as described,3530.59,1,1,1,1,1,18,0,1
+DSP-3020,ORD-15274,Transaction not recognised,4597.24,1,1,1,1,0,0,0,1
+DSP-3021,ORD-11001,Item not as described,6975.12,1,1,1,1,1,25,0,1
+DSP-3022,ORD-12107,Defective item,21896.22,1,1,1,1,2,1,1,1
+DSP-3023,ORD-10778,Duplicate charge,3407.51,1,0,1,1,1,6,0,1
+DSP-3024,ORD-13510,Duplicate charge,3815.38,1,1,1,1,2,8,0,1
+DSP-3025,ORD-11845,Transaction not recognised,8335.28,1,1,0,1,1,6,3,1
+DSP-3026,ORD-12289,Item not as described,5276.51,1,1,0,1,2,0,0,1
+DSP-3027,ORD-10169,Duplicate charge,6355.23,0,0,0,0,4,0,1,0
+DSP-3028,ORD-15126,Defective item,3506.4,0,0,0,0,0,2,0,0
+DSP-3029,ORD-14423,Item not as described,5322.17,0,0,0,0,1,13,0,0
+DSP-3030,ORD-11753,Duplicate charge,3125.13,1,1,1,1,0,19,0,1
+DSP-3031,ORD-13792,Item not as described,3480.96,1,1,1,1,0,7,1,1
+DSP-3032,ORD-13659,Item not received,18294.05,1,1,0,1,1,20,0,1
+DSP-3033,ORD-10732,Transaction not recognised,3322.64,1,1,0,1,1,2,0,1
+DSP-3034,ORD-15199,Duplicate charge,4901.58,1,1,1,1,1,28,0,1
+DSP-3035,ORD-11435,Item not as described,16889.91,1,0,1,1,1,6,0,1
+DSP-3036,ORD-14457,Duplicate charge,3839.71,0,0,0,0,2,2,0,0
+DSP-3037,ORD-15220,Item not received,5591.25,0,0,0,0,5,29,0,1
+DSP-3038,ORD-11362,Item not received,4138.9,1,1,0,1,2,8,0,1
+DSP-3039,ORD-12609,Transaction not recognised,5590.8,1,1,0,1,1,3,1,1
+DSP-3040,ORD-13647,Duplicate charge,8655.12,0,0,1,0,0,19,0,1
+DSP-3041,ORD-15402,Item not received,8195.12,1,1,1,1,1,3,0,1
+DSP-3042,ORD-13010,Duplicate charge,12834.79,0,0,0,0,2,10,0,0
+DSP-3043,ORD-10938,Item not as described,6049.58,1,1,1,1,2,7,0,1
+DSP-3044,ORD-13548,Item not received,4644.92,1,1,0,1,0,4,0,1
+DSP-3045,ORD-12866,Transaction not recognised,3222.44,1,1,1,1,0,15,0,1
+DSP-3046,ORD-11568,Defective item,1021.07,0,0,1,0,0,0,0,0
+DSP-3047,ORD-14410,Duplicate charge,890.79,1,1,1,1,2,2,0,1
+DSP-3048,ORD-13951,Defective item,6059.03,0,0,0,0,1,24,0,0
+DSP-3049,ORD-11839,Item not as described,6843.21,1,1,1,1,1,2,0,1
+DSP-3050,ORD-10246,Item not as described,6955.4,0,0,0,0,2,2,0,0
+DSP-3051,ORD-10506,Item not received,5619.08,1,1,0,1,0,19,0,1
+DSP-3052,ORD-10799,Duplicate charge,4245.66,0,0,0,0,1,17,0,1
+DSP-3053,ORD-10474,Defective item,4934.93,1,1,0,1,1,7,0,1
+DSP-3054,ORD-10749,Transaction not recognised,3489.83,1,1,1,1,2,2,0,1
+DSP-3055,ORD-11883,Transaction not recognised,6100.52,1,1,0,1,0,1,0,1
+DSP-3056,ORD-13223,Item not as described,3970.54,0,0,1,0,0,18,1,0
+DSP-3057,ORD-15599,Item not as described,3656.37,0,0,0,0,0,15,0,0
+DSP-3058,ORD-15973,Item not received,9477.56,1,1,0,1,3,16,1,1
+DSP-3059,ORD-14716,Duplicate charge,8886.53,1,1,0,1,2,2,1,0
+DSP-3060,ORD-12245,Defective item,3674.7,1,0,0,1,0,1,0,0
+DSP-3061,ORD-14278,Defective item,2022.19,1,1,1,1,0,0,2,0
+DSP-3062,ORD-11187,Duplicate charge,3278.34,1,1,0,0,2,2,0,1
+DSP-3063,ORD-13799,Transaction not recognised,5455.4,0,0,1,0,3,5,0,0
+DSP-3064,ORD-13334,Duplicate charge,4268.88,1,0,1,1,1,3,0,1
+DSP-3065,ORD-15974,Transaction not recognised,1549.53,1,1,0,1,0,2,1,1
+DSP-3066,ORD-12749,Transaction not recognised,3961.6,1,1,0,1,2,3,3,1
+DSP-3067,ORD-12169,Item not received,9347.97,1,1,0,1,0,10,0,1
+DSP-3068,ORD-11685,Defective item,10015.95,0,0,1,0,0,7,0,0
+DSP-3069,ORD-14590,Item not as described,5656.73,1,0,1,1,3,6,0,0
+DSP-3070,ORD-13623,Duplicate charge,5055.9,1,1,1,1,2,21,0,1
+DSP-3071,ORD-11057,Transaction not recognised,4898.63,1,0,1,1,2,5,1,0
+DSP-3072,ORD-13376,Transaction not recognised,3275.47,1,1,1,1,1,6,2,1
+DSP-3073,ORD-15382,Defective item,2280.19,1,1,1,1,4,3,1,1
+DSP-3074,ORD-12679,Item not as described,4604.43,1,1,1,1,1,6,1,1
+DSP-3075,ORD-14313,Item not received,6940.56,1,1,0,1,2,1,0,1
+DSP-3076,ORD-14469,Item not received,1538.27,1,1,1,1,4,10,0,1
+DSP-3077,ORD-12868,Item not as described,5833.68,1,1,1,1,3,5,1,1
+DSP-3078,ORD-12968,Defective item,5294.49,1,1,0,1,1,27,0,0
+DSP-3079,ORD-10126,Item not as described,2890.22,1,0,0,1,2,33,0,0
+DSP-3080,ORD-13991,Item not as described,5550.83,0,0,0,0,0,0,0,0
+DSP-3081,ORD-15281,Duplicate charge,3004.69,1,1,1,1,2,25,2,1
+DSP-3082,ORD-11821,Defective item,13670.07,1,1,1,1,3,1,1,1
+DSP-3083,ORD-15343,Defective item,4752.06,1,1,1,1,1,1,0,1
+DSP-3084,ORD-14587,Item not as described,1361.61,0,0,1,0,2,3,0,1
+DSP-3085,ORD-14012,Item not received,3916.98,1,1,1,1,1,8,0,1
+DSP-3086,ORD-12769,Item not received,4812.32,0,0,1,0,0,9,0,0
+DSP-3087,ORD-10787,Item not as described,4467.73,0,0,0,0,0,3,0,0
+DSP-3088,ORD-10016,Duplicate charge,3083.47,1,1,0,1,1,3,1,1
+DSP-3089,ORD-11364,Item not as described,13484.94,1,0,0,1,3,9,0,0
+DSP-3090,ORD-13187,Defective item,5537.46,1,0,1,1,0,4,1,0
+DSP-3091,ORD-12062,Transaction not recognised,3155.53,1,1,1,1,3,2,0,1
+DSP-3092,ORD-10116,Transaction not recognised,8563.38,1,1,1,1,2,13,1,1
+DSP-3093,ORD-10109,Item not as described,4289.69,1,0,1,1,2,6,0,1
+DSP-3094,ORD-14519,Defective item,4612.74,1,1,1,1,0,11,0,1
+DSP-3095,ORD-14407,Defective item,3034.28,1,1,1,1,1,11,0,1
+DSP-3096,ORD-15935,Item not as described,6661.24,1,1,1,1,0,4,0,1
+DSP-3097,ORD-14443,Item not as described,2519.39,1,1,1,1,4,4,0,1
+DSP-3098,ORD-11362,Item not received,3456.09,0,0,1,0,2,1,0,0
+DSP-3099,ORD-15304,Item not as described,2116.38,0,0,1,0,0,8,0,0
+DSP-3100,ORD-14738,Duplicate charge,1912.89,1,1,1,1,1,1,0,1
+DSP-3101,ORD-11098,Defective item,2167.57,1,1,0,1,1,3,1,1
+DSP-3102,ORD-11267,Defective item,3021.45,1,0,0,1,3,19,0,0
+DSP-3103,ORD-15762,Defective item,4344.94,1,1,0,1,2,39,0,1
+DSP-3104,ORD-15365,Duplicate charge,4008.91,1,1,0,1,3,4,0,1
+DSP-3105,ORD-11881,Transaction not recognised,2764.02,1,1,1,1,2,9,0,1
+DSP-3106,ORD-14222,Item not as described,8256.85,1,0,1,1,1,5,1,0
+DSP-3107,ORD-13560,Item not as described,2914.46,1,1,0,1,2,5,0,1
+DSP-3108,ORD-11703,Item not received,4236.89,1,1,1,0,0,18,0,1
+DSP-3109,ORD-15482,Item not received,2281.71,1,1,1,1,0,2,0,1
+DSP-3110,ORD-14994,Item not received,3110.04,0,0,0,0,0,8,2,0
+DSP-3111,ORD-11532,Transaction not recognised,7285.69,1,1,1,1,0,17,0,1
+DSP-3112,ORD-12689,Duplicate charge,9416.62,1,0,0,1,2,23,0,1
+DSP-3113,ORD-15046,Transaction not recognised,4345.35,0,0,1,0,1,2,0,1
+DSP-3114,ORD-13962,Item not received,10180.82,1,1,1,1,0,7,0,1
+DSP-3115,ORD-14527,Transaction not recognised,2691.84,1,1,1,1,2,4,1,1
+DSP-3116,ORD-10181,Defective item,8793.09,0,0,1,0,1,1,0,0
+DSP-3117,ORD-12912,Duplicate charge,10179.19,1,0,0,1,3,9,0,1
+DSP-3118,ORD-12336,Duplicate charge,3585.55,0,0,1,0,1,3,0,0
+DSP-3119,ORD-13656,Item not as described,10031.63,0,0,0,0,1,6,0,0
+DSP-3120,ORD-15713,Transaction not recognised,2395.06,1,1,0,1,3,18,0,0
+DSP-3121,ORD-15632,Transaction not recognised,3407.22,0,0,1,0,0,15,0,1
+DSP-3122,ORD-15351,Defective item,4696.31,1,0,0,1,0,1,1,0
+DSP-3123,ORD-12403,Defective item,6239.56,1,1,1,1,1,17,1,1
+DSP-3124,ORD-12825,Defective item,6651.52,1,1,0,1,1,1,1,1
+DSP-3125,ORD-15688,Item not received,2167.57,1,1,0,1,3,4,0,1
+DSP-3126,ORD-13875,Transaction not recognised,5542.68,0,0,1,0,1,1,1,0
+DSP-3127,ORD-13968,Duplicate charge,9412.78,0,0,0,0,2,22,0,0
+DSP-3128,ORD-11741,Transaction not recognised,9790.5,1,1,0,1,2,16,0,1
+DSP-3129,ORD-15524,Transaction not recognised,7893.46,1,1,0,0,1,11,1,1
+DSP-3130,ORD-15140,Item not received,2379.71,1,1,1,1,2,6,0,1
+DSP-3131,ORD-11285,Item not received,20012.73,1,0,0,1,2,5,0,0
+DSP-3132,ORD-11759,Item not as described,1429.97,1,1,1,1,3,11,0,1
+DSP-3133,ORD-14106,Duplicate charge,12146.45,0,0,0,0,4,41,0,0
+DSP-3134,ORD-14169,Duplicate charge,8119.02,1,0,1,1,0,22,0,1
+DSP-3135,ORD-13491,Duplicate charge,3121.82,1,0,0,1,0,15,0,0
+DSP-3136,ORD-14179,Duplicate charge,10554.87,1,0,1,1,2,10,0,1
+DSP-3137,ORD-15251,Duplicate charge,7887.4,1,1,1,1,2,28,1,1
+DSP-3138,ORD-14792,Transaction not recognised,6060.61,1,1,1,1,3,4,0,1
+DSP-3139,ORD-10968,Transaction not recognised,5233.07,1,0,1,1,0,7,0,1
+DSP-3140,ORD-10330,Transaction not recognised,2599.85,1,1,0,1,1,4,0,1
+DSP-3141,ORD-13226,Duplicate charge,7374.64,1,1,1,1,1,21,0,1
+DSP-3142,ORD-12668,Item not received,4807.06,1,1,0,1,2,4,0,1
+DSP-3143,ORD-15305,Defective item,6896.52,1,1,1,1,2,12,0,1
+DSP-3144,ORD-15888,Item not as described,9161.43,1,1,0,1,2,0,0,1
+DSP-3145,ORD-13774,Item not received,642.81,1,1,1,1,1,1,0,1
+DSP-3146,ORD-12162,Transaction not recognised,14998.7,0,0,1,0,1,15,0,1
+DSP-3147,ORD-10813,Defective item,4255.11,1,1,1,1,1,3,0,1
+DSP-3148,ORD-11683,Transaction not recognised,4773.16,1,1,0,1,1,31,0,0
+DSP-3149,ORD-14368,Transaction not recognised,28796.99,0,0,1,0,2,13,2,0
+DSP-3150,ORD-14312,Defective item,9246.57,1,1,1,1,0,26,0,1
+DSP-3151,ORD-12591,Duplicate charge,3478.07,0,0,1,0,0,9,0,0
+DSP-3152,ORD-12605,Defective item,2976.15,1,1,1,1,1,13,0,1
+DSP-3153,ORD-14623,Item not as described,6043.5,0,0,0,0,2,2,0,0
+DSP-3154,ORD-13439,Item not received,3610.98,1,1,1,1,3,2,0,1
+DSP-3155,ORD-14354,Item not received,1453.09,1,1,1,1,0,14,0,1
+DSP-3156,ORD-13619,Transaction not recognised,2670.28,0,0,0,0,1,11,0,0
+DSP-3157,ORD-14225,Duplicate charge,4166.57,1,1,0,1,0,0,0,1
+DSP-3158,ORD-14261,Item not received,2951.25,1,1,1,1,1,8,0,1
+DSP-3159,ORD-12143,Item not as described,8862.24,1,0,1,1,0,7,0,0
+DSP-3160,ORD-11483,Transaction not recognised,1782.93,1,1,1,1,0,4,0,1
+DSP-3161,ORD-11467,Transaction not recognised,4579.71,1,0,1,1,2,5,1,1
+DSP-3162,ORD-14213,Duplicate charge,20103.09,1,1,1,1,0,1,0,1
+DSP-3163,ORD-15193,Duplicate charge,2382.1,1,1,1,1,0,3,0,1
+DSP-3164,ORD-13969,Item not received,5281.07,1,1,1,1,0,15,1,1
+DSP-3165,ORD-11486,Duplicate charge,7224.64,1,1,1,1,2,5,0,1
+DSP-3166,ORD-13261,Duplicate charge,15762.95,0,0,1,0,0,9,0,0
+DSP-3167,ORD-14057,Transaction not recognised,3801.36,1,1,1,1,3,6,2,1
+DSP-3168,ORD-15907,Item not received,2999.69,0,0,1,0,2,0,0,1
+DSP-3169,ORD-10780,Item not received,14396.34,1,1,0,0,0,2,1,0
+DSP-3170,ORD-15981,Duplicate charge,1397.45,1,1,1,1,3,1,1,1
+DSP-3171,ORD-15918,Transaction not recognised,3089.66,1,1,1,1,0,10,1,1
+DSP-3172,ORD-12617,Item not as described,5641.87,1,1,1,1,1,23,1,1
+DSP-3173,ORD-13322,Transaction not recognised,5556.87,0,0,0,0,1,2,1,1
+DSP-3174,ORD-10034,Item not received,2027.34,0,0,0,0,3,86,1,0
+DSP-3175,ORD-11352,Transaction not recognised,8034.89,1,1,0,1,2,14,1,0
+DSP-3176,ORD-15444,Item not as described,8648.89,1,1,1,1,4,3,0,1
+DSP-3177,ORD-14545,Item not as described,6918.63,1,1,1,1,1,6,1,1
+DSP-3178,ORD-13594,Item not received,10021.29,1,1,1,1,1,11,0,1
+DSP-3179,ORD-12945,Transaction not recognised,3921.74,1,1,1,1,3,5,1,1
+DSP-3180,ORD-13775,Duplicate charge,3504.13,1,1,0,1,3,1,0,1
+DSP-3181,ORD-13181,Defective item,5449.41,0,0,0,0,3,7,1,0
+DSP-3182,ORD-10214,Item not received,2627.86,1,1,1,1,1,19,1,0
+DSP-3183,ORD-12647,Item not received,1789.5,1,1,1,1,2,5,0,1
+DSP-3184,ORD-14381,Defective item,3834.0,1,1,0,1,3,0,0,1
+DSP-3185,ORD-15830,Duplicate charge,5640.1,0,0,1,0,1,5,0,0
+DSP-3186,ORD-13271,Item not as described,5940.16,1,1,1,1,2,8,1,1
+DSP-3187,ORD-13844,Item not as described,8302.0,1,1,0,1,1,5,0,0
+DSP-3188,ORD-12784,Item not received,2874.99,0,0,1,0,2,3,0,0
+DSP-3189,ORD-11204,Defective item,4262.09,1,1,0,1,2,13,0,0
+DSP-3190,ORD-11094,Item not received,2958.26,0,0,1,0,2,2,0,1
+DSP-3191,ORD-12208,Item not as described,21324.65,1,1,0,0,2,4,0,0
+DSP-3192,ORD-12140,Item not received,21398.17,1,1,1,1,3,5,1,1
+DSP-3193,ORD-15754,Defective item,5475.65,1,1,1,1,0,0,0,1
+DSP-3194,ORD-14461,Item not received,8752.98,1,1,1,1,0,8,0,1
+DSP-3195,ORD-10785,Item not as described,9435.33,1,1,1,1,1,7,0,1
+DSP-3196,ORD-13970,Item not as described,7513.17,1,1,0,0,2,2,2,1
+DSP-3197,ORD-13999,Duplicate charge,5934.74,1,1,0,1,5,9,0,1
+DSP-3198,ORD-13721,Duplicate charge,4693.92,1,0,1,0,1,55,0,0
+DSP-3199,ORD-11550,Duplicate charge,1926.93,1,1,1,0,1,10,0,1
+DSP-3200,ORD-13086,Item not received,16330.56,1,1,1,1,1,0,0,1
+DSP-3201,ORD-13849,Item not received,2485.31,1,0,0,1,2,7,0,1
+DSP-3202,ORD-14814,Item not as described,13143.13,1,1,0,1,1,0,0,1
+DSP-3203,ORD-13726,Item not as described,10341.18,1,0,0,1,3,11,1,0
+DSP-3204,ORD-10524,Item not as described,4053.17,1,1,0,1,1,2,0,1
+DSP-3205,ORD-11827,Transaction not recognised,3883.0,1,1,1,0,1,0,0,0
+DSP-3206,ORD-15913,Item not as described,27334.39,1,1,1,0,1,9,1,1
+DSP-3207,ORD-14758,Item not as described,12049.34,1,1,1,1,2,5,0,1
+DSP-3208,ORD-15890,Transaction not recognised,12765.85,0,0,0,0,0,20,0,1
+DSP-3209,ORD-12772,Item not received,3105.4,0,0,1,0,2,8,0,1
+DSP-3210,ORD-10215,Item not as described,4684.57,1,0,1,1,1,0,0,1
+DSP-3211,ORD-15712,Defective item,3385.88,1,1,1,1,2,0,0,1
+DSP-3212,ORD-11610,Transaction not recognised,2425.45,1,1,1,0,2,7,0,1
+DSP-3213,ORD-15958,Duplicate charge,12474.9,1,1,1,1,1,0,0,1
+DSP-3214,ORD-15112,Item not as described,4748.92,1,1,1,0,4,10,0,1
+DSP-3215,ORD-12788,Item not received,4512.68,0,0,0,0,3,38,1,0
+DSP-3216,ORD-12787,Item not as described,1760.78,0,0,1,0,0,1,0,0
+DSP-3217,ORD-13907,Defective item,3821.36,1,1,1,1,1,7,0,1
+DSP-3218,ORD-14583,Item not as described,3859.19,1,1,0,1,3,9,1,1
+DSP-3219,ORD-12486,Duplicate charge,9608.2,0,0,1,0,4,3,0,1
+DSP-3220,ORD-13820,Defective item,3673.31,0,0,1,0,2,10,0,0
+DSP-3221,ORD-15294,Transaction not recognised,4073.66,1,1,1,1,4,24,0,1
+DSP-3222,ORD-13121,Duplicate charge,2809.09,0,0,1,0,2,9,0,0
+DSP-3223,ORD-10005,Defective item,3588.8,1,0,1,0,3,6,0,0
+DSP-3224,ORD-15790,Item not as described,4726.81,1,1,0,1,2,4,0,1
+DSP-3225,ORD-15471,Transaction not recognised,5393.43,0,0,1,0,2,5,1,1
+DSP-3226,ORD-13362,Item not received,3217.82,0,0,0,0,1,7,0,0
+DSP-3227,ORD-15282,Item not as described,1242.29,1,0,1,1,4,10,1,1
+DSP-3228,ORD-12564,Defective item,5220.21,1,1,1,1,2,26,1,1
+DSP-3229,ORD-12367,Defective item,5016.11,1,1,1,1,1,5,0,1
+DSP-3230,ORD-13523,Transaction not recognised,2728.56,0,0,0,0,2,10,2,1
+DSP-3231,ORD-12416,Transaction not recognised,2005.6,1,1,1,0,1,1,0,1
+DSP-3232,ORD-11701,Item not as described,9122.69,1,1,0,1,2,4,0,1
+DSP-3233,ORD-10352,Duplicate charge,8174.6,1,1,0,1,1,0,0,1
+DSP-3234,ORD-10247,Defective item,2688.79,1,1,0,1,0,9,1,0
+DSP-3235,ORD-10639,Defective item,2318.98,0,0,0,0,2,25,0,0
+DSP-3236,ORD-13639,Item not as described,4425.11,1,1,0,1,2,0,1,1
+DSP-3237,ORD-12379,Transaction not recognised,3579.25,1,1,1,1,2,27,0,1
+DSP-3238,ORD-15398,Transaction not recognised,2665.62,1,1,0,1,0,6,0,1
+DSP-3239,ORD-11107,Item not received,2771.92,1,1,1,1,1,9,0,1
+DSP-3240,ORD-10075,Transaction not recognised,1645.75,0,0,0,0,0,18,1,0
+DSP-3241,ORD-13951,Transaction not recognised,1156.47,1,1,0,1,0,0,1,1
+DSP-3242,ORD-10447,Transaction not recognised,4866.74,1,1,1,1,2,18,3,1
+DSP-3243,ORD-14669,Item not received,3854.66,1,1,0,1,1,0,0,1
+DSP-3244,ORD-10133,Item not as described,2565.57,0,0,1,0,0,10,0,0
+DSP-3245,ORD-15498,Duplicate charge,44553.07,1,0,1,1,3,11,1,1
+DSP-3246,ORD-11777,Transaction not recognised,1650.86,1,1,1,1,1,1,0,1
+DSP-3247,ORD-10126,Item not received,6746.38,1,1,1,1,1,11,0,1
+DSP-3248,ORD-11867,Duplicate charge,9036.0,1,0,0,1,2,4,1,1
+DSP-3249,ORD-12876,Transaction not recognised,7959.67,0,0,1,0,1,6,1,1
+DSP-3250,ORD-12807,Item not received,6766.55,1,1,1,1,5,6,1,1
+DSP-3251,ORD-15811,Item not as described,3046.5,1,1,0,1,3,13,1,1
+DSP-3252,ORD-15049,Duplicate charge,2917.94,1,1,0,1,2,13,0,1
+DSP-3253,ORD-10085,Item not as described,13004.15,1,1,1,1,2,0,1,1
+DSP-3254,ORD-12601,Transaction not recognised,4387.96,0,0,0,0,1,3,0,1
+DSP-3255,ORD-11531,Transaction not recognised,3139.92,1,0,1,1,1,9,0,0
+DSP-3256,ORD-12628,Item not as described,5995.84,1,1,0,1,2,21,0,0
+DSP-3257,ORD-14994,Item not as described,4059.83,1,1,1,1,2,0,1,1
+DSP-3258,ORD-10319,Duplicate charge,6035.46,1,1,0,1,2,4,1,1
+DSP-3259,ORD-10609,Item not received,2689.64,1,0,1,1,0,5,2,0
+DSP-3260,ORD-12202,Defective item,6115.36,0,0,0,0,1,5,0,0
+DSP-3261,ORD-15114,Item not received,5240.71,1,1,0,1,1,7,1,1
+DSP-3262,ORD-11111,Duplicate charge,1610.34,0,0,1,0,4,0,0,1
+DSP-3263,ORD-14842,Item not as described,9749.62,1,1,0,1,3,13,2,1
+DSP-3264,ORD-10360,Transaction not recognised,7738.05,1,0,1,1,1,26,0,0
+DSP-3265,ORD-13551,Item not as described,5350.97,1,1,1,1,3,3,0,1
+DSP-3266,ORD-14494,Defective item,6117.14,0,0,0,0,1,2,1,0
+DSP-3267,ORD-11401,Item not received,2567.35,0,0,1,0,1,2,0,1
+DSP-3268,ORD-10157,Defective item,1916.07,1,1,0,1,2,14,0,1
+DSP-3269,ORD-14158,Duplicate charge,5663.96,1,1,1,1,1,9,1,1
+DSP-3270,ORD-14123,Item not received,1982.61,1,1,0,1,0,1,2,0
+DSP-3271,ORD-15690,Defective item,4520.03,0,0,0,0,0,5,0,1
+DSP-3272,ORD-14603,Item not as described,7361.86,1,1,0,1,0,2,0,1
+DSP-3273,ORD-11343,Item not as described,5352.74,1,1,1,1,2,2,0,1
+DSP-3274,ORD-10959,Item not received,4010.73,1,0,0,1,2,7,1,0
+DSP-3275,ORD-13428,Item not as described,4798.51,1,0,1,1,2,0,0,1
+DSP-3276,ORD-10013,Defective item,10116.41,1,1,1,0,3,2,0,1
+DSP-3277,ORD-13911,Item not as described,1750.89,1,1,1,1,4,0,1,1
+DSP-3278,ORD-14330,Duplicate charge,4097.75,0,0,1,0,1,54,0,0
+DSP-3279,ORD-12838,Duplicate charge,3723.75,1,0,1,1,2,3,0,1
+DSP-3280,ORD-15865,Item not received,4341.08,1,1,0,1,1,0,1,1
+DSP-3281,ORD-10398,Transaction not recognised,13683.87,1,1,1,1,0,1,0,1
+DSP-3282,ORD-15667,Defective item,4467.88,1,1,1,1,0,3,0,1
+DSP-3283,ORD-13037,Defective item,5682.3,0,0,0,0,1,2,1,0
+DSP-3284,ORD-14701,Duplicate charge,1727.8,0,0,1,0,3,10,0,1
+DSP-3285,ORD-13422,Transaction not recognised,6375.18,0,0,0,0,1,30,0,0
+DSP-3286,ORD-14787,Item not received,7775.06,1,1,0,1,3,20,2,1
+DSP-3287,ORD-10963,Defective item,3050.06,0,0,1,0,2,15,0,1
+DSP-3288,ORD-14041,Defective item,2141.53,1,0,1,1,1,3,0,1
+DSP-3289,ORD-12286,Defective item,20252.73,1,1,1,0,1,30,1,1
+DSP-3290,ORD-13917,Defective item,1586.48,0,0,0,0,1,0,1,0
+DSP-3291,ORD-12286,Duplicate charge,2510.13,1,1,0,0,3,3,0,1
+DSP-3292,ORD-10861,Item not as described,6603.39,0,0,1,0,0,0,0,0
+DSP-3293,ORD-11083,Transaction not recognised,4454.52,0,0,1,0,1,14,1,0
+DSP-3294,ORD-11620,Item not as described,2163.67,1,1,1,1,2,10,0,1
+DSP-3295,ORD-13241,Defective item,3688.8,1,1,1,1,5,0,0,1
+DSP-3296,ORD-12662,Duplicate charge,7957.4,0,0,0,0,1,4,0,0
+DSP-3297,ORD-14045,Item not received,3507.38,0,0,1,0,5,15,0,0
+DSP-3298,ORD-13753,Transaction not recognised,6371.79,1,0,1,1,0,2,0,1
+DSP-3299,ORD-10017,Defective item,5122.11,1,0,1,1,3,3,0,1
+DSP-3300,ORD-11960,Item not received,11135.81,1,1,0,1,4,3,0,1
+DSP-3301,ORD-14892,Transaction not recognised,3621.88,0,0,0,0,0,6,1,0
+DSP-3302,ORD-12896,Defective item,12576.18,1,1,1,1,2,2,1,1
+DSP-3303,ORD-14085,Item not received,7636.76,0,0,1,0,0,0,0,0
+DSP-3304,ORD-12366,Duplicate charge,6355.98,1,1,1,1,2,34,0,1
+DSP-3305,ORD-13819,Duplicate charge,6365.75,1,1,0,1,0,8,1,1
+DSP-3306,ORD-10308,Duplicate charge,3771.12,1,1,1,1,1,2,0,1
+DSP-3307,ORD-14286,Item not as described,2894.16,0,0,1,0,0,3,1,0
+DSP-3308,ORD-14790,Transaction not recognised,4317.0,0,0,1,0,1,5,0,0
+DSP-3309,ORD-13138,Item not as described,1832.43,0,0,0,0,2,24,2,0
+DSP-3310,ORD-11779,Defective item,2435.28,1,1,1,0,2,10,1,1
+DSP-3311,ORD-10519,Item not as described,14622.32,1,1,1,1,1,33,1,1
+DSP-3312,ORD-15234,Defective item,2571.76,1,1,1,1,2,4,0,1
+DSP-3313,ORD-13614,Transaction not recognised,21163.93,1,1,0,1,1,3,0,1
+DSP-3314,ORD-12697,Item not as described,5488.53,1,1,1,0,3,1,0,1
+DSP-3315,ORD-11770,Duplicate charge,5124.01,1,1,1,1,1,1,0,1
+DSP-3316,ORD-11298,Item not received,4217.02,1,1,1,1,1,7,4,1
+DSP-3317,ORD-12800,Transaction not recognised,11319.54,0,0,1,0,2,4,0,1
+DSP-3318,ORD-15394,Item not as described,2392.1,0,0,1,0,2,39,1,0
+DSP-3319,ORD-13493,Item not received,6512.25,1,1,0,1,4,4,1,1
+DSP-3320,ORD-10161,Duplicate charge,3876.24,1,1,1,1,0,27,0,1
+DSP-3321,ORD-15092,Duplicate charge,6369.97,0,0,1,0,1,3,2,0
+DSP-3322,ORD-12953,Duplicate charge,5773.65,1,1,1,1,2,12,0,1
+DSP-3323,ORD-10340,Defective item,4447.11,1,1,1,1,0,1,0,1
+DSP-3324,ORD-11905,Transaction not recognised,9284.87,0,0,0,0,3,11,1,1
+DSP-3325,ORD-13195,Defective item,6040.98,1,1,0,1,2,0,0,1
+DSP-3326,ORD-12410,Defective item,8880.6,0,0,1,0,2,7,0,0
+DSP-3327,ORD-11844,Defective item,1281.33,1,0,1,1,1,3,0,0
+DSP-3328,ORD-11649,Item not as described,4678.06,1,1,1,1,3,2,1,1
+DSP-3329,ORD-12387,Item not received,1430.22,1,1,0,0,1,1,0,1
+DSP-3330,ORD-15822,Defective item,3403.9,1,1,0,1,0,0,0,1
+DSP-3331,ORD-12611,Item not as described,1854.84,0,0,1,0,2,1,2,0
+DSP-3332,ORD-12239,Item not received,1174.68,1,1,0,1,3,2,0,1
+DSP-3333,ORD-14025,Item not received,11252.07,1,1,1,1,3,0,0,1
+DSP-3334,ORD-11088,Transaction not recognised,4683.3,1,1,1,0,3,9,0,1
+DSP-3335,ORD-10487,Item not received,3044.68,0,0,1,0,2,2,0,0
+DSP-3336,ORD-12628,Item not received,5579.94,1,1,1,1,1,3,0,1
+DSP-3337,ORD-15218,Item not as described,3231.36,0,0,1,0,0,7,2,0
+DSP-3338,ORD-13187,Duplicate charge,3052.91,1,1,1,1,5,7,0,1
+DSP-3339,ORD-10763,Item not received,3072.35,1,0,1,1,4,2,0,1
+DSP-3340,ORD-13405,Duplicate charge,10073.77,0,0,1,0,1,6,1,0
+DSP-3341,ORD-15729,Item not received,17626.54,1,1,0,1,1,1,0,1
+DSP-3342,ORD-15696,Transaction not recognised,8236.52,1,1,1,1,1,48,0,1
+DSP-3343,ORD-12133,Duplicate charge,5639.14,1,1,1,1,2,6,0,1
+DSP-3344,ORD-10210,Duplicate charge,8784.64,1,1,1,1,2,4,0,1
+DSP-3345,ORD-11656,Item not received,2383.55,1,1,1,1,0,1,1,1
+DSP-3346,ORD-11035,Transaction not recognised,7179.42,0,0,0,0,2,2,0,0
+DSP-3347,ORD-12690,Duplicate charge,5494.82,1,1,0,1,2,8,1,1
+DSP-3348,ORD-12822,Transaction not recognised,2701.34,1,1,0,1,1,1,0,1
+DSP-3349,ORD-10053,Item not received,3810.36,0,0,1,0,1,12,0,0
+DSP-3350,ORD-13535,Item not as described,3693.45,1,1,1,1,2,4,0,1
+DSP-3351,ORD-13721,Transaction not recognised,7503.08,1,1,0,1,0,0,0,1
+DSP-3352,ORD-10113,Transaction not recognised,2552.08,0,0,1,0,1,31,0,0
+DSP-3353,ORD-14689,Item not as described,6751.97,0,0,1,0,0,49,0,0
+DSP-3354,ORD-15147,Item not as described,2380.91,1,1,1,1,1,5,0,1
+DSP-3355,ORD-12129,Item not as described,3275.94,1,1,1,1,4,6,0,1
+DSP-3356,ORD-15720,Duplicate charge,3052.05,0,0,1,0,1,1,0,0
+DSP-3357,ORD-14605,Item not as described,4230.44,1,0,0,0,1,6,0,1
+DSP-3358,ORD-11966,Duplicate charge,10010.78,1,1,0,1,1,6,0,1
+DSP-3359,ORD-12893,Defective item,6250.0,1,0,1,1,0,5,0,0
+DSP-3360,ORD-14775,Defective item,8416.9,1,1,0,1,0,4,0,1
+DSP-3361,ORD-11447,Defective item,6389.15,1,1,0,1,1,7,0,1
+DSP-3362,ORD-10060,Transaction not recognised,3824.24,1,1,0,1,1,7,0,1
+DSP-3363,ORD-15826,Transaction not recognised,8572.79,1,1,1,1,4,6,0,1
+DSP-3364,ORD-12088,Defective item,4700.49,1,1,0,1,2,11,0,0
+DSP-3365,ORD-14504,Item not as described,3072.56,1,1,0,1,3,1,2,1
+DSP-3366,ORD-13306,Duplicate charge,1310.31,1,1,1,1,1,5,0,1
+DSP-3367,ORD-14321,Item not as described,1477.9,1,1,1,1,4,32,0,1
+DSP-3368,ORD-14662,Duplicate charge,5411.84,1,1,0,0,2,2,0,0
+DSP-3369,ORD-15524,Item not received,2942.08,1,1,0,1,1,17,0,1
+DSP-3370,ORD-13221,Duplicate charge,1058.82,1,1,0,1,1,9,2,1
+DSP-3371,ORD-12556,Item not as described,5824.78,0,0,1,0,0,2,0,1
+DSP-3372,ORD-14522,Duplicate charge,4637.48,1,1,1,1,1,5,2,1
+DSP-3373,ORD-15225,Duplicate charge,5081.11,1,0,1,1,1,24,0,1
+DSP-3374,ORD-13035,Transaction not recognised,2781.0,1,1,1,1,3,5,0,1
+DSP-3375,ORD-10212,Item not as described,3430.19,1,1,1,1,0,7,0,0
+DSP-3376,ORD-12206,Defective item,2857.64,1,1,1,1,4,1,0,1
+DSP-3377,ORD-10785,Item not as described,7398.03,0,0,1,0,0,16,1,0
+DSP-3378,ORD-14565,Item not received,1951.22,1,1,0,1,4,29,0,0
+DSP-3379,ORD-14945,Item not received,2416.37,0,0,1,0,2,2,0,1
+DSP-3380,ORD-14962,Item not received,3245.34,1,1,1,1,0,13,0,0
+DSP-3381,ORD-13204,Item not as described,5646.71,0,0,1,0,1,3,0,1
+DSP-3382,ORD-12641,Transaction not recognised,5812.27,1,1,1,1,3,43,0,1
+DSP-3383,ORD-15688,Item not received,2295.99,0,0,0,0,1,19,0,0
+DSP-3384,ORD-12763,Item not as described,7707.16,0,0,1,0,0,33,0,1
+DSP-3385,ORD-14823,Transaction not recognised,4855.87,1,1,0,1,4,0,1,1
+DSP-3386,ORD-10780,Defective item,7056.07,1,1,0,1,3,53,0,1
+DSP-3387,ORD-11528,Duplicate charge,2825.28,1,1,0,1,1,0,1,1
+DSP-3388,ORD-11580,Item not received,4890.77,1,1,0,1,1,1,0,1
+DSP-3389,ORD-11887,Duplicate charge,14627.06,0,0,0,0,1,5,0,1
+DSP-3390,ORD-12555,Duplicate charge,14915.03,1,1,0,1,2,5,0,0
+DSP-3391,ORD-15420,Transaction not recognised,4545.01,0,0,1,0,1,11,0,1
+DSP-3392,ORD-13379,Duplicate charge,3253.3,0,0,1,0,0,16,0,1
+DSP-3393,ORD-13088,Duplicate charge,5048.51,0,0,1,0,1,4,0,1
+DSP-3394,ORD-11148,Item not received,9342.84,1,0,1,1,2,11,0,1
+DSP-3395,ORD-15166,Item not received,6170.17,1,0,1,1,2,6,1,1
+DSP-3396,ORD-14743,Transaction not recognised,2058.28,1,1,1,1,3,5,1,1
+DSP-3397,ORD-14191,Item not as described,15668.17,1,1,1,1,2,16,0,1
+DSP-3398,ORD-14880,Item not as described,2355.99,0,0,0,0,0,1,2,0
+DSP-3399,ORD-13010,Item not received,3572.28,1,0,0,0,2,11,2,0

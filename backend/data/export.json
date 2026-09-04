@@ -1,0 +1,743 @@
+{
+  "generated_at": "2026-09-02",
+  "dataset_sizes": {
+    "orders": 6000,
+    "disputes": 1400
+  },
+  "model1": {
+    "name": "Return Risk Scorer",
+    "algorithm": "XGBoost (250 trees, depth 4)",
+    "metrics": {
+      "precision": 68.1,
+      "recall": 58.4,
+      "f1": 62.9,
+      "auc": 75.0
+    },
+    "confusion_matrix": [
+      [
+        630,
+        187
+      ],
+      [
+        284,
+        399
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "hist_return_rate",
+        "importance": 0.1382
+      },
+      {
+        "feature": "device_ip_mismatch",
+        "importance": 0.1373
+      },
+      {
+        "feature": "prior_disputes",
+        "importance": 0.1068
+      },
+      {
+        "feature": "is_cod",
+        "importance": 0.0988
+      },
+      {
+        "feature": "category_Beauty",
+        "importance": 0.0486
+      },
+      {
+        "feature": "category_Electronics",
+        "importance": 0.0477
+      },
+      {
+        "feature": "category_Mobiles",
+        "importance": 0.0467
+      },
+      {
+        "feature": "delivery_pincode_risk",
+        "importance": 0.0454
+      }
+    ]
+  },
+  "model2": {
+    "name": "Chargeback Win Predictor",
+    "algorithm": "Random Forest (300 trees, depth 7, balanced)",
+    "metrics": {
+      "precision": 86.4,
+      "recall": 81.5,
+      "f1": 83.9,
+      "auc": 85.4
+    },
+    "confusion_matrix": [
+      [
+        87,
+        30
+      ],
+      [
+        43,
+        190
+      ]
+    ],
+    "feature_importance": [
+      {
+        "feature": "has_signed_pod",
+        "importance": 0.3156
+      },
+      {
+        "feature": "has_delivery_proof",
+        "importance": 0.2025
+      },
+      {
+        "feature": "tracking_valid",
+        "importance": 0.13
+      },
+      {
+        "feature": "order_value",
+        "importance": 0.0861
+      },
+      {
+        "feature": "days_to_file",
+        "importance": 0.0724
+      },
+      {
+        "feature": "ip_match",
+        "importance": 0.0569
+      },
+      {
+        "feature": "comm_logs",
+        "importance": 0.0386
+      },
+      {
+        "feature": "prior_customer_disputes",
+        "importance": 0.0295
+      }
+    ]
+  },
+  "orders": [
+    {
+      "order_id": "ORD-11925",
+      "customer": "Janaki Zacharia",
+      "category": "Electronics",
+      "order_value": 4680.31,
+      "is_cod": 1,
+      "past_orders": 18,
+      "hist_return_rate": 0.531,
+      "risk_score": 91
+    },
+    {
+      "order_id": "ORD-13346",
+      "customer": "Jagvi Jhaveri",
+      "category": "Electronics",
+      "order_value": 8070.23,
+      "is_cod": 0,
+      "past_orders": 31,
+      "hist_return_rate": 0.53,
+      "risk_score": 87
+    },
+    {
+      "order_id": "ORD-14493",
+      "customer": "Harsh Virk",
+      "category": "Mobiles",
+      "order_value": 5220.01,
+      "is_cod": 1,
+      "past_orders": 2,
+      "hist_return_rate": 0.383,
+      "risk_score": 80
+    },
+    {
+      "order_id": "ORD-14316",
+      "customer": "Omkaar Nagy",
+      "category": "Home & Kitchen",
+      "order_value": 9531.48,
+      "is_cod": 1,
+      "past_orders": 10,
+      "hist_return_rate": 0.417,
+      "risk_score": 78
+    },
+    {
+      "order_id": "ORD-10616",
+      "customer": "Anika Magar",
+      "category": "Electronics",
+      "order_value": 6588.54,
+      "is_cod": 1,
+      "past_orders": 4,
+      "hist_return_rate": 0.364,
+      "risk_score": 76
+    },
+    {
+      "order_id": "ORD-15073",
+      "customer": "Guneet Sarna",
+      "category": "Mobiles",
+      "order_value": 6401.37,
+      "is_cod": 0,
+      "past_orders": 13,
+      "hist_return_rate": 0.481,
+      "risk_score": 72
+    },
+    {
+      "order_id": "ORD-11625",
+      "customer": "Lajita Trivedi",
+      "category": "Mobiles",
+      "order_value": 10767.15,
+      "is_cod": 1,
+      "past_orders": 6,
+      "hist_return_rate": 0.481,
+      "risk_score": 70
+    },
+    {
+      "order_id": "ORD-14449",
+      "customer": "Agastya Morar",
+      "category": "Home & Kitchen",
+      "order_value": 3752.87,
+      "is_cod": 1,
+      "past_orders": 10,
+      "hist_return_rate": 0.361,
+      "risk_score": 65
+    },
+    {
+      "order_id": "ORD-15559",
+      "customer": "Owen Naidu",
+      "category": "Home & Kitchen",
+      "order_value": 7464.53,
+      "is_cod": 1,
+      "past_orders": 7,
+      "hist_return_rate": 0.297,
+      "risk_score": 65
+    },
+    {
+      "order_id": "ORD-12352",
+      "customer": "Chavvi Keer",
+      "category": "Electronics",
+      "order_value": 13416.65,
+      "is_cod": 1,
+      "past_orders": 26,
+      "hist_return_rate": 0.342,
+      "risk_score": 64
+    },
+    {
+      "order_id": "ORD-10179",
+      "customer": "Upma Bahl",
+      "category": "Home & Kitchen",
+      "order_value": 3240.15,
+      "is_cod": 0,
+      "past_orders": 17,
+      "hist_return_rate": 0.321,
+      "risk_score": 62
+    },
+    {
+      "order_id": "ORD-13213",
+      "customer": "Pranit Chander",
+      "category": "Fitness",
+      "order_value": 5701.09,
+      "is_cod": 0,
+      "past_orders": 17,
+      "hist_return_rate": 0.191,
+      "risk_score": 59
+    },
+    {
+      "order_id": "ORD-15461",
+      "customer": "Liam Bera",
+      "category": "Mobiles",
+      "order_value": 5204.58,
+      "is_cod": 0,
+      "past_orders": 7,
+      "hist_return_rate": 0.408,
+      "risk_score": 56
+    },
+    {
+      "order_id": "ORD-13806",
+      "customer": "Gautam Konda",
+      "category": "Mobiles",
+      "order_value": 6061.22,
+      "is_cod": 1,
+      "past_orders": 10,
+      "hist_return_rate": 0.368,
+      "risk_score": 54
+    },
+    {
+      "order_id": "ORD-15624",
+      "customer": "Eesha Balay",
+      "category": "Fashion",
+      "order_value": 8038.41,
+      "is_cod": 1,
+      "past_orders": 4,
+      "hist_return_rate": 0.346,
+      "risk_score": 53
+    },
+    {
+      "order_id": "ORD-13279",
+      "customer": "Ladli Madan",
+      "category": "Beauty",
+      "order_value": 9087.77,
+      "is_cod": 0,
+      "past_orders": 21,
+      "hist_return_rate": 0.211,
+      "risk_score": 48
+    },
+    {
+      "order_id": "ORD-15215",
+      "customer": "Girik Raja",
+      "category": "Fashion",
+      "order_value": 7491.46,
+      "is_cod": 0,
+      "past_orders": 7,
+      "hist_return_rate": 0.316,
+      "risk_score": 47
+    },
+    {
+      "order_id": "ORD-12604",
+      "customer": "Chasmum Maharaj",
+      "category": "Electronics",
+      "order_value": 6186.57,
+      "is_cod": 0,
+      "past_orders": 13,
+      "hist_return_rate": 0.437,
+      "risk_score": 43
+    },
+    {
+      "order_id": "ORD-11208",
+      "customer": "Widisha Badami",
+      "category": "Home & Kitchen",
+      "order_value": 2646.15,
+      "is_cod": 1,
+      "past_orders": 17,
+      "hist_return_rate": 0.253,
+      "risk_score": 40
+    },
+    {
+      "order_id": "ORD-10905",
+      "customer": "Adweta Kale",
+      "category": "Electronics",
+      "order_value": 2766.27,
+      "is_cod": 1,
+      "past_orders": 12,
+      "hist_return_rate": 0.283,
+      "risk_score": 37
+    },
+    {
+      "order_id": "ORD-11169",
+      "customer": "Saksham Parmar",
+      "category": "Home & Kitchen",
+      "order_value": 3202.9,
+      "is_cod": 0,
+      "past_orders": 13,
+      "hist_return_rate": 0.289,
+      "risk_score": 33
+    },
+    {
+      "order_id": "ORD-14039",
+      "customer": "Chaaya Ahuja",
+      "category": "Home & Kitchen",
+      "order_value": 4576.81,
+      "is_cod": 0,
+      "past_orders": 2,
+      "hist_return_rate": 0.19,
+      "risk_score": 33
+    },
+    {
+      "order_id": "ORD-13236",
+      "customer": "Samesh Sura",
+      "category": "Mobiles",
+      "order_value": 7751.05,
+      "is_cod": 0,
+      "past_orders": 21,
+      "hist_return_rate": 0.153,
+      "risk_score": 32
+    },
+    {
+      "order_id": "ORD-13929",
+      "customer": "Forum Borah",
+      "category": "Fitness",
+      "order_value": 1866.11,
+      "is_cod": 1,
+      "past_orders": 2,
+      "hist_return_rate": 0.094,
+      "risk_score": 32
+    },
+    {
+      "order_id": "ORD-13272",
+      "customer": "Champak Anne",
+      "category": "Beauty",
+      "order_value": 5950.39,
+      "is_cod": 0,
+      "past_orders": 12,
+      "hist_return_rate": 0.114,
+      "risk_score": 31
+    },
+    {
+      "order_id": "ORD-11137",
+      "customer": "Dhriti Bhardwaj",
+      "category": "Mobiles",
+      "order_value": 3646.19,
+      "is_cod": 0,
+      "past_orders": 9,
+      "hist_return_rate": 0.298,
+      "risk_score": 31
+    },
+    {
+      "order_id": "ORD-13255",
+      "customer": "Ekaja Hora",
+      "category": "Fitness",
+      "order_value": 3695.98,
+      "is_cod": 1,
+      "past_orders": 7,
+      "hist_return_rate": 0.075,
+      "risk_score": 29
+    },
+    {
+      "order_id": "ORD-14290",
+      "customer": "Nathan Suresh",
+      "category": "Mobiles",
+      "order_value": 8956.03,
+      "is_cod": 0,
+      "past_orders": 22,
+      "hist_return_rate": 0.17,
+      "risk_score": 28
+    },
+    {
+      "order_id": "ORD-11042",
+      "customer": "Gopal Bawa",
+      "category": "Fitness",
+      "order_value": 2696.75,
+      "is_cod": 0,
+      "past_orders": 10,
+      "hist_return_rate": 0.271,
+      "risk_score": 25
+    },
+    {
+      "order_id": "ORD-11909",
+      "customer": "Oscar Nayak",
+      "category": "Fashion",
+      "order_value": 1750.73,
+      "is_cod": 1,
+      "past_orders": 15,
+      "hist_return_rate": 0.198,
+      "risk_score": 25
+    },
+    {
+      "order_id": "ORD-13002",
+      "customer": "Jyoti Nair",
+      "category": "Mobiles",
+      "order_value": 6451.14,
+      "is_cod": 1,
+      "past_orders": 8,
+      "hist_return_rate": 0.196,
+      "risk_score": 23
+    },
+    {
+      "order_id": "ORD-15883",
+      "customer": "Jasmit Bala",
+      "category": "Electronics",
+      "order_value": 4779.44,
+      "is_cod": 0,
+      "past_orders": 13,
+      "hist_return_rate": 0.192,
+      "risk_score": 22
+    },
+    {
+      "order_id": "ORD-12043",
+      "customer": "Quincy Raj",
+      "category": "Beauty",
+      "order_value": 4919.31,
+      "is_cod": 1,
+      "past_orders": 10,
+      "hist_return_rate": 0.15,
+      "risk_score": 21
+    },
+    {
+      "order_id": "ORD-14289",
+      "customer": "Ekavir Contractor",
+      "category": "Fitness",
+      "order_value": 3382.32,
+      "is_cod": 0,
+      "past_orders": 27,
+      "hist_return_rate": 0.185,
+      "risk_score": 20
+    },
+    {
+      "order_id": "ORD-11178",
+      "customer": "Chandresh Chaudhry",
+      "category": "Beauty",
+      "order_value": 6321.55,
+      "is_cod": 0,
+      "past_orders": 29,
+      "hist_return_rate": 0.215,
+      "risk_score": 17
+    },
+    {
+      "order_id": "ORD-14320",
+      "customer": "Jagdish Kapur",
+      "category": "Mobiles",
+      "order_value": 2969.24,
+      "is_cod": 0,
+      "past_orders": 7,
+      "hist_return_rate": 0.176,
+      "risk_score": 14
+    },
+    {
+      "order_id": "ORD-13675",
+      "customer": "Girish Gara",
+      "category": "Mobiles",
+      "order_value": 6097.27,
+      "is_cod": 0,
+      "past_orders": 3,
+      "hist_return_rate": 0.162,
+      "risk_score": 12
+    },
+    {
+      "order_id": "ORD-13099",
+      "customer": "Chaitanya Sule",
+      "category": "Beauty",
+      "order_value": 5999.27,
+      "is_cod": 0,
+      "past_orders": 13,
+      "hist_return_rate": 0.109,
+      "risk_score": 10
+    },
+    {
+      "order_id": "ORD-12235",
+      "customer": "Udarsh Jani",
+      "category": "Beauty",
+      "order_value": 6743.39,
+      "is_cod": 0,
+      "past_orders": 21,
+      "hist_return_rate": 0.097,
+      "risk_score": 9
+    },
+    {
+      "order_id": "ORD-10729",
+      "customer": "Anay Thakkar",
+      "category": "Electronics",
+      "order_value": 10851.82,
+      "is_cod": 0,
+      "past_orders": 8,
+      "hist_return_rate": 0.22,
+      "risk_score": 8
+    }
+  ],
+  "disputes": [
+    {
+      "dispute_id": "DSP-2300",
+      "order_id": "ORD-12929",
+      "reason": "Item not received",
+      "order_value": 2742.31,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 2,
+      "win_probability": 91
+    },
+    {
+      "dispute_id": "DSP-3137",
+      "order_id": "ORD-15251",
+      "reason": "Duplicate charge",
+      "order_value": 7887.4,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 1,
+      "win_probability": 88
+    },
+    {
+      "dispute_id": "DSP-3250",
+      "order_id": "ORD-12807",
+      "reason": "Item not received",
+      "order_value": 6766.55,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 0,
+      "win_probability": 85
+    },
+    {
+      "dispute_id": "DSP-2789",
+      "order_id": "ORD-11227",
+      "reason": "Item not as described",
+      "order_value": 10087.61,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 0,
+      "win_probability": 83
+    },
+    {
+      "dispute_id": "DSP-2098",
+      "order_id": "ORD-10440",
+      "reason": "Item not received",
+      "order_value": 1207.01,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 2,
+      "win_probability": 82
+    },
+    {
+      "dispute_id": "DSP-2828",
+      "order_id": "ORD-11953",
+      "reason": "Item not received",
+      "order_value": 2967.94,
+      "has_signed_pod": 1,
+      "ip_match": 0,
+      "tracking_valid": 1,
+      "comm_logs": 2,
+      "win_probability": 77
+    },
+    {
+      "dispute_id": "DSP-3152",
+      "order_id": "ORD-12605",
+      "reason": "Defective item",
+      "order_value": 2976.15,
+      "has_signed_pod": 1,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 2,
+      "win_probability": 77
+    },
+    {
+      "dispute_id": "DSP-2630",
+      "order_id": "ORD-12873",
+      "reason": "Item not received",
+      "order_value": 2884.11,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 1,
+      "comm_logs": 0,
+      "win_probability": 68
+    },
+    {
+      "dispute_id": "DSP-2721",
+      "order_id": "ORD-14728",
+      "reason": "Item not as described",
+      "order_value": 3823.15,
+      "has_signed_pod": 1,
+      "ip_match": 0,
+      "tracking_valid": 1,
+      "comm_logs": 1,
+      "win_probability": 65
+    },
+    {
+      "dispute_id": "DSP-2017",
+      "order_id": "ORD-12380",
+      "reason": "Duplicate charge",
+      "order_value": 18509.86,
+      "has_signed_pod": 1,
+      "ip_match": 0,
+      "tracking_valid": 0,
+      "comm_logs": 0,
+      "win_probability": 60
+    },
+    {
+      "dispute_id": "DSP-3356",
+      "order_id": "ORD-15720",
+      "reason": "Duplicate charge",
+      "order_value": 3052.05,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 1,
+      "win_probability": 31
+    },
+    {
+      "dispute_id": "DSP-3002",
+      "order_id": "ORD-11082",
+      "reason": "Item not received",
+      "order_value": 1656.02,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 0,
+      "win_probability": 25
+    },
+    {
+      "dispute_id": "DSP-2610",
+      "order_id": "ORD-12540",
+      "reason": "Transaction not recognised",
+      "order_value": 3354.6,
+      "has_signed_pod": 0,
+      "ip_match": 0,
+      "tracking_valid": 0,
+      "comm_logs": 0,
+      "win_probability": 25
+    },
+    {
+      "dispute_id": "DSP-2101",
+      "order_id": "ORD-11600",
+      "reason": "Item not as described",
+      "order_value": 8923.0,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 3,
+      "win_probability": 24
+    },
+    {
+      "dispute_id": "DSP-2902",
+      "order_id": "ORD-10124",
+      "reason": "Defective item",
+      "order_value": 8371.34,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 3,
+      "win_probability": 23
+    },
+    {
+      "dispute_id": "DSP-3321",
+      "order_id": "ORD-15092",
+      "reason": "Duplicate charge",
+      "order_value": 6369.97,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 0,
+      "win_probability": 22
+    },
+    {
+      "dispute_id": "DSP-2445",
+      "order_id": "ORD-15107",
+      "reason": "Defective item",
+      "order_value": 2693.27,
+      "has_signed_pod": 0,
+      "ip_match": 1,
+      "tracking_valid": 0,
+      "comm_logs": 1,
+      "win_probability": 18
+    },
+    {
+      "dispute_id": "DSP-2810",
+      "order_id": "ORD-12867",
+      "reason": "Defective item",
+      "order_value": 4495.09,
+      "has_signed_pod": 0,
+      "ip_match": 0,
+      "tracking_valid": 0,
+      "comm_logs": 0,
+      "win_probability": 2
+    }
+  ],
+  "saved_trend": [
+    {
+      "month": "Mar",
+      "saved_inr_k": 9.1
+    },
+    {
+      "month": "Apr",
+      "saved_inr_k": 8.38
+    },
+    {
+      "month": "May",
+      "saved_inr_k": 11.18
+    },
+    {
+      "month": "Jun",
+      "saved_inr_k": 11.96
+    },
+    {
+      "month": "Jul",
+      "saved_inr_k": 13.35
+    },
+    {
+      "month": "Aug",
+      "saved_inr_k": 14.84
+    }
+  ]
+}
