@@ -1,98 +1,85 @@
 # Merchant Risk Shield
 
-Unzip this folder anywhere and open it in VS Code (`File → Open Folder`).
-Four pieces now, run each from its own terminal tab.
+A practical risk and dispute management dashboard for merchants.
 
-```
-merchant-risk-shield/
-├── ml-pipeline/     Python: synthetic data, model training, AND a live-scoring API
-│   ├── generate_data.py        synthetic orders.csv / disputes.csv
-│   ├── train_models.py         trains + saves XGBoost + Random Forest as .pkl
-│   ├── scoring_service.py      FastAPI service — scores NEW orders/disputes live
-│   ├── return_risk_model.pkl / chargeback_win_model.pkl   already-trained models
-│   └── requirements.txt
-├── backend/         Node.js / Express API serving the pre-computed demo data
-└── frontend/        React (Vite) dashboard — the actual UI
-```
+Merchant Risk Shield brings two common merchant problems into one place: identifying orders that are more likely to be returned, and deciding which chargebacks are worth contesting.
 
-## Fastest path to a full demo (3 terminals)
+The dashboard combines machine-learning predictions with the evidence already available for each case, so the output is not just a score — it leads to a suggested action.
 
-**Terminal 1 — live scoring service** (makes the "Score live" panels in Orders/Disputes work):
+##  Live Demo
 
-```bash
-cd ml-pipeline
-pip install -r requirements.txt
-uvicorn scoring_service:app --reload --port 8000
-```
+**[Open Merchant Risk Shield](https://merchant-risk-shield-frontend.onrender.com)**
 
-Leave this running. Test it worked: open `http://localhost:8000/health` in a browser —
-you should see `{"ok":true,...}`.
+**Demo account**
+- Email: `demo@merchant.com`
+- Password: `demo123`
 
-**Terminal 2 — frontend:**
+> The project uses synthetic data for the demo. No real customer or payment data is used.
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+---
 
-Open **http://localhost:5173**. The dashboard works even without Terminal 1 running
-(all the demo rows are baked in) — but the "Score a new order/dispute live" panels
-at the top of Orders and Disputes need Terminal 1 to actually call the real model.
+## What the project does
 
-**Terminal 3 — backend** (optional, not wired to the frontend yet):
+### 1. Order Return Risk
 
-```bash
-cd backend
-npm install
-npm start
-```
+The Orders section uses an **XGBoost** model to estimate the likelihood that an order will be returned.
 
-## What's actually "live" here
+A merchant can also enter a new order in the live scoring panel and get a prediction from the trained model.
 
-- The **Orders** and **Disputes** tabs ship with 40/18 pre-scored demo rows (from
-  `export.json`, produced by a real train/test split — not hand-picked numbers).
-- The **"Score a new order live"** / **"Score a new dispute live"** panels at the
-  top of each tab call `scoring_service.py` over HTTP, which loads the actual
-  `.pkl` files and runs `model.predict_proba()` on whatever you type in. Type in
-  a risky-looking order and watch the score change in real time — that's the
-  real XGBoost model, not a canned response. Rows you add this way get a small
-  "LIVE" badge.
-- **Model Lab** tab shows the real precision/recall/F1/AUC/confusion-matrix/
-  feature-importance from the last `train_models.py` run.
+### 2. Chargeback Win Prediction
 
-## Regenerating data / retraining
+The Disputes section uses a **Random Forest** model to estimate the probability that a merchant can successfully win a chargeback dispute.
 
-```bash
-cd ml-pipeline
-python3 generate_data.py     # fresh synthetic orders.csv / disputes.csv
-python3 train_models.py      # retrains, re-saves the .pkl files, prints real metrics
-```
+The prediction is used to group cases into practical decision bands:
 
-Restart `scoring_service.py` after retraining so it picks up the new `.pkl` files.
+- **Below 40%** → Do not contest
+- **40–69%** → Manual review
+- **70% and above** → Contest
 
-## Requirements
+These are decision-support signals, not guarantees.
 
-- Node.js 18+ and npm (frontend/backend)
-- Python 3.9+ and pip (ml-pipeline)
+### 3. Evidence Desk
 
-## Troubleshooting
+For a dispute, the system looks at the evidence actually available in the case, including:
 
-- **"Scoring service unreachable" in the UI** → Terminal 1 isn't running, or died.
-  Check it printed `Uvicorn running on http://127.0.0.1:8000`.
-- **Blank page / import errors in frontend** → `npm install` didn't finish cleanly;
-  delete `node_modules` and re-run it.
-- **Port already in use** → change the port in `frontend/vite.config.js`
-  (frontend), `PORT=4001 npm start` (backend), or `--port 8001` (scoring service).
-- **pip install fails on Windows for xgboost** → upgrade pip first:
-  `python -m pip install --upgrade pip`, then retry.
+- Signed proof of delivery
+- Courier tracking validity
+- Device/IP consistency
+- Previous support communication
 
-## Deploying for demo day (recommended if you have time)
+It then generates an evidence letter based on the case details and predicted outcome.
 
-- **Frontend** → push `frontend/` to GitHub, import into
-  [vercel.com](https://vercel.com) (auto-detects Vite), deploy. ~3 minutes.
-- **Scoring service** → push `ml-pipeline/` to GitHub, deploy on
-  [render.com](https://render.com) as a Python web service
-  (`uvicorn scoring_service:app --host 0.0.0.0 --port $PORT`). Free tier works.
-- Then update `SCORING_URL` at the top of `frontend/src/App.jsx` from
-  `http://localhost:8000` to your Render URL, and redeploy the frontend.
+### 4. Merchant Actions
+
+The dashboard also supports simple operational actions such as:
+
+- Verify an order
+- Block COD for an order
+- Generate an evidence letter
+- Submit a dispute
+
+---
+
+## How it works
+
+```text
+                    Merchant Risk Shield
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+             ▼                           ▼
+       Order Risk                  Dispute Risk
+             │                           │
+          XGBoost                   Random Forest
+             │                           │
+             ▼                           ▼
+       Return Risk             Chargeback Win Probability
+             │                           │
+             └─────────────┬─────────────┘
+                           ▼
+                    Merchant Dashboard
+                           │
+             ┌─────────────┴─────────────┐
+             ▼                           ▼
+       Merchant Actions            Evidence Desk
+       Verify / Block          Generate / Submit Letter
